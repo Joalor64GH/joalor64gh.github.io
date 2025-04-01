@@ -1,8 +1,26 @@
+:root {
+    --txtLight: #000;
+    --txtDark: #fff;
+}
+
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #4f516b, #22232f);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--txtDark)
+}
+
+.lightmode body {
+    background: linear-gradient(to bottom, #9fa2d1, #4f516b);
+    color: var(--txtLight)
 }
 
 a:link {
