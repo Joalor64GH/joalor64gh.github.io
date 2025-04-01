@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4f516b, #22232f);
+}
+
+a:link {
+    color: #0ff;
+}
+
+a:visited {
+    color: #00f;
+}
