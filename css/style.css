@@ -1,8 +1,4 @@
-:root {
-    --txtLight: #000;
-    --txtDark: #fff;
-}
-
+/* BODY */
 html {
     height: 100%;
 }
@@ -11,16 +7,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #4f516b, #22232f);
+    background-color: #22232f;
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: var(--txtDark)
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.lightmode body {
-    background: linear-gradient(to bottom, #9fa2d1, #4f516b);
-    color: var(--txtLight)
+.lightmode {
+    background-color: #4f516b;
+    color: black;
 }
 
 a:link {
@@ -29,4 +26,37 @@ a:link {
 
 a:visited {
     color: #00f;
+}
+
+/* NAVIGATION BAR */
+.topnav {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
 }
