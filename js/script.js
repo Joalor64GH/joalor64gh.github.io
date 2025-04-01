@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.addEventListener('keydown', (e) => {
-        if (e.key === " ") {
+        if (e.key.toLowerCase() === "d") {
             if (body.classList.contains('lightmode')) {
                 body.classList.remove('lightmode');
                 localStorage.setItem('lightmode', 'disabled');
