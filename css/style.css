@@ -16,9 +16,11 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.lightmode {
-    background-color: #4f516b;
-    color: black;
+hr {
+    border: none;
+    width: 70%;
+    height: 1px;
+    background-color: #ccc
 }
 
 a:link {
@@ -27,6 +29,11 @@ a:link {
 
 a:visited {
     color: #00f;
+}
+
+.lightmode {
+    background-color: #4f516b;
+    color: black;
 }
 
 /* NAVIGATION BAR */
@@ -81,44 +88,30 @@ a:visited {
     font-size: 16px;
 }
 
-.hr {
-    border: none;
-    width: 70%;
-    height: 1px;
-    margin: 25px 0;
-    background-color: #ccc
-}
-
 .content {
     display: flex;
-    align-items: center;
     justify-content: center;
     text-align: center;
-    position: relative;
-    margin: 20px auto;
-    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .content img {
     transform: scale(0.4);
 }
 
-.content .box-select01 {
+.content .box-select01 { /* a bit broken a the moment, will fix later */
     height: 200px;
     width: 210px;
-    max-width: 210px;
-    max-height: 200px;
-    padding: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    position: relative;
+    position: static;
     flex-direction: column;
     transition: transform 1s cubic-bezier(0.075, 0.820, 0.165, 1.000), background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
     border-radius: 10px;
-    bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .content .box-select01:hover {
