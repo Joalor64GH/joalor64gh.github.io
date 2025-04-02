@@ -23,12 +23,20 @@ hr {
     background-color: #43444e
 }
 
+hr .lightmode {
+    background: #ccc;
+}
+
 a:link {
     color: #0ff;
 }
 
 a:visited {
     color: #00f;
+}
+
+footer {
+    background: linear-gradient(to bottom, #ffffff00, #000000);
 }
 
 .lightmode {
