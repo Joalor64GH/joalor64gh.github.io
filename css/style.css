@@ -36,7 +36,9 @@ a:visited {
 }
 
 footer {
+    margin-top: auto;
     background: linear-gradient(to bottom, #ffffff00, #000000);
+    padding: 10px;
 }
 
 .lightmode {
