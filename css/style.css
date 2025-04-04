@@ -37,6 +37,12 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+.footer-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     margin-top: auto;
     background: linear-gradient(to bottom, #ffffff00, #000000);
@@ -51,10 +57,8 @@ footer {
 /* NAVIGATION BAR */
 .topnav {
     background-color: #333;
-    position: fixed;
     top: 0;
     width: 100%;
-    z-index: 10;
     overflow: hidden;
 }
 
