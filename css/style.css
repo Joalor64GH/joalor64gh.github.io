@@ -27,12 +27,14 @@ hr .lightmode {
     background: #ccc;
 }
 
-a:link {
-    color: #0ff;
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
-a:visited {
-    color: #00f;
+a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
 }
 
 footer {
