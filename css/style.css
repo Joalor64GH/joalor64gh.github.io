@@ -32,7 +32,8 @@ a {
     text-decoration: none;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: inherit;
     text-decoration: none;
 }
@@ -44,7 +45,6 @@ a:link, a:visited {
 }
 
 footer {
-    margin-top: auto;
     background: linear-gradient(to bottom, #ffffff00, #000000);
     padding: 10px;
 }
@@ -140,4 +140,52 @@ footer {
 
 .content p {
     margin-top: -110px;
+}
+
+/* SOCIALS */
+.container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly larger shadow for emphasis */
+    text-align: left;
+    padding: 20px;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.container .lightmode {
+    background-color: #3e3e3e;
+}
+
+.container img {
+    width: 80px;
+    height: 80px;
+}
+
+.container .social-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.container .social-info .social-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.container .social-info .social-link {
+    font-size: 16px;
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.container .social-info .social-link:hover {
+    color: #0056b3;
 }
