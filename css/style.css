@@ -150,7 +150,7 @@ footer {
     justify-content: flex-start;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly larger shadow for emphasis */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     text-align: left;
     padding: 20px;
     gap: 20px;
@@ -188,4 +188,30 @@ footer {
 
 .container .social-info .social-link:hover {
     color: #0056b3;
+}
+
+/* WALLPAPERS */
+.wallpaper-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.wallpaper-item {
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.wallpaper-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.wallpaper-item img:hover {
+    transform: scale(1.05);
 }
