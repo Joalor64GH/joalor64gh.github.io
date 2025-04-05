@@ -208,10 +208,187 @@ footer {
 .wallpaper-item img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
 }
 
 .wallpaper-item img:hover {
     transform: scale(1.05);
+}
+
+/* FOREVERBOX */
+.logo {
+    font-family: 'Allan', sans-serif;
+    font-size: 100px;
+    font-weight: normal;
+    margin: auto;
+}
+
+.sub-logo {
+    font-weight: normal;
+}
+
+.version-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    gap: 20px;
+}
+
+.version-name-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.version-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.version-image img {
+    width: 819px;
+    height: 614px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.version-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    color: white;
+}
+
+.version-icon svg {
+    width: 100px;
+    height: 100px;
+}
+
+.version-icon p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.version-name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Allan', sans-serif;
+    font-weight: normal;
+    text-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    color: white;
+    text-align: left;
+    margin: 0;
+}
+
+.version-date {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+.version-description {
+    font-size: 30px;
+    color: white;
+}
+
+.version-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.version-buttons .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: inherit;
+}
+
+.version-buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+.version-buttons .preview-btn {
+    background-color: #28a745;
+}
+
+.version-buttons .preview-btn:hover {
+    background-color: #218838;
+}
+
+.version-buttons .soon-btn {
+    background-color: #565656;
+}
+
+.version-buttons .soon-btn:hover {
+    background-color: #565656;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal h2 {
+    color: black;
+}
+
+.modal-content {
+    position: relative;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.platform-icon {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.platform-icon:hover {
+    transform: scale(1.1);
 }
