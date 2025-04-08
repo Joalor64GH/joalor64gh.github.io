@@ -22,7 +22,7 @@ const galleryData = [
     { src: "img/gallery/characters/charis.png", name: "Charis" },
     { src: "img/gallery/characters/chiffon.png", name: "Chiffon" },
     { src: "img/gallery/characters/chiko.png", name: "Chiko" },
-    { src: "img/gallery/characters/circleguy.png", name: "Circle" },
+    { src: "img/gallery/characters/circleguy.png", name: "Circle Guy" },
     { src: "img/gallery/characters/clementina.png", name: "Clementina" },
     { src: "img/gallery/characters/copykat.png", name: "CopyKat" },
     { src: "img/gallery/characters/corruptus.png", name: "Corruptus" },

@@ -16,7 +16,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: Comic Sans MS;
+    font-family: 'Comic Sans MS', sans-serif;
     text-align: center;
     background-color: #22232f;
     height: 100%;
@@ -26,7 +26,8 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-html, body {
+html,
+body {
     max-width: 101%;
     overflow-x: hidden;
 }
@@ -719,17 +720,50 @@ footer {
 
     .banner {
         height: 300px;
-        background-size: contain;
+        background-size: cover;
+        background-position: center;
     }
 
     .content {
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .content img {
+        transform: scale(0.6);
+        margin-bottom: -50px;
     }
 
     .content .box-select01 {
-        width: 100%;
-        padding: 20px;
+        width: 90%;
+        height: auto;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    .content2 .box-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .content2 .icon-container {
+        width: 150px;
+        height: 150px;
+    }
+
+    .content2 .text-container {
+        gap: 8px;
+    }
+
+    .content2 .small-title {
+        font-size: 20px;
+    }
+
+    .content2 .info-text {
+        font-size: 16px;
     }
 
     .container {

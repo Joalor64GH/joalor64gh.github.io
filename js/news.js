@@ -244,6 +244,7 @@ newsData.forEach(group => {
                 const a = document.createElement('a');
                 a.href = button.link;
                 a.textContent = button.text;
+                a.target = "_blank";
                 newsButtons.appendChild(a);
             });
             newsContent.appendChild(newsButtons);
