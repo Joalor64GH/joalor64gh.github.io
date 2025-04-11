@@ -697,6 +697,84 @@ footer {
     background-color: #0056b3;
 }
 
+/*
+ _____            _____ _____ ____     _____ _    _       _______ 
+|  __ \     /\   |  __ \_   _/ __ \   / ____| |  | |   /\|__   __|
+| |__) |   /  \  | |  | || || |  | | | |    | |__| |  /  \  | |   
+|  _  /   / /\ \ | |  | || || |  | | | |    |  __  | / /\ \ | |   
+| | \ \  / ____ \| |__| || || |__| | | |____| |  | |/ ____ \| |   
+|_|  \_\/_/    \_\_____/_____\____/   \_____|_|  |_/_/    \_\_|
+*/
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.music-player {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f96b;
+    flex: 0 0 auto;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.radio-ui {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.track-info {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+    font-family: inherit;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+#volume-slider {
+    margin-left: 10px;
+}
+
+iframe {
+    flex: 0 0 auto;
+    max-width: 500px;
+    height: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 
 /*
   __  __  ____  ____ _____ _      ______    _____ _    _ _____  _____   ____  _____ _______ 

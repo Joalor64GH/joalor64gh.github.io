@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Joalor64's Website - Radio Chat</title>
+    <meta name='author' content='Joalor64'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="./index.html">Home</a>
+        <a href="./socials.html">Socials</a>
+        <a href="./my-cool-creations.html">My Cool Creations</a>
+        <a href="./art-gallery.html">Art Gallery</a>
+        <a class="active" href="./radio-chat.html">Radio Chat</a>
+        <a href="./foreverbox.html">Foreverbox</a>
+        <a href="./wallpapers.html">Wallpapers</a>
+        <a href="./news.html">News</a>
+        <div class="topnav-right">
+            <a id="toggle-text" onclick="toggleTheme()">☀️</a>
+        </div>
+    </div>
+    <h1>✨Radio Chat✨</h1>
+    <h2 class="sub-head">Listen to some music and chat with others!</h2>
+    <hr>
+    <div class="outer-container">
+        <div class="content-container">
+            <div class="music-player">
+                <h3>📻 Joalor64's Radio Player™ 📻</h3>
+                <div class="radio-ui">
+                    <div class="track-info">
+                        <p id="track-title">Now Playing: Sample Music</p>
+                    </div>
+                    <audio id="audio-player" controls controlslist="nodownload">
+                        <source src="audio/sample-music.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="controls">
+                        <button onclick="previousSong()">⏮ Previous</button>
+                        <button onclick="playAudio()">▶ Play</button>
+                        <button onclick="pauseAudio()">⏸ Pause</button>
+                        <button onclick="nextSong()">⏭ Next</button>
+                        <br>
+                        <br>
+                        <label for="volume-slider">🔊 Volume:</label>
+                        <input id="volume-slider" type="range" min="0" max="1" step="0.1"
+                            onchange="setVolume(this.value)">
+                    </div>
+                </div>
+            </div>
+            <iframe style="border-radius: 15px;" src="https://foreverbox-chatroom.onrender.com" width="500" height="600"
+                allowtransparency="true" frameborder="0"></iframe>
+        </div>
+    </div>
+    <footer>
+        <br>
+        <p style="font-size: 20px; padding-bottom: 10px">© 2021-2025 | Joalor Enterprises⁶⁴<br>Since March 21, 2021
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/radio.js"></script>
+</body>
+
+</html>
