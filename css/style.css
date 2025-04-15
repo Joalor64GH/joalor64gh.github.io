@@ -947,4 +947,17 @@ iframe {
     .version-icon p {
         font-size: 14px;
     }
+
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .music-player {
+        order: 1;
+    }
+
+    iframe {
+        order: 2;
+    }
 }
