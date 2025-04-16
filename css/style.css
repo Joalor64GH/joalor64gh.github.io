@@ -16,7 +16,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
     text-align: center;
     background-color: #22232f;
     height: 100%;
@@ -116,19 +116,59 @@ footer {
     font-size: 17px;
 }
 
-.topnav a:hover {
+.topnav a:hover,
+.dropdown:hover .dropbtn {
     background-color: #ddd;
     cursor: pointer;
     color: black;
 }
 
-.topnav a.active {
+.topnav a.active,
+.dropdown a.active .dropbtn {
     background-color: #04AA6D;
     color: white;
 }
 
 .topnav-right {
     float: right;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /*
@@ -149,7 +189,6 @@ footer {
     justify-content: center;
     text-align: center;
     position: relative;
-    z-index: 1;
 }
 
 .small-title {
@@ -165,7 +204,7 @@ footer {
 
 .content img {
     transform: scale(0.4);
-    margin-bottom: -110px;
+    margin-bottom: -130px;
 }
 
 .content .box-select01 {
