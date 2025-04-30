@@ -55,6 +55,13 @@ body {
     background-color: #f1f1f1;
 }
 
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url(../font/comic-sans-ms-webfont.woff2) format("woff2"), url(../font/comic-sans-ms-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
 hr {
     border: none;
     width: 70%;
