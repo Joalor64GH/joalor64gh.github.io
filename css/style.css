@@ -59,7 +59,7 @@ body {
     font-family: 'Comic Sans MS';
     src: url(../font/comic-sans-ms-webfont.woff2) format("woff2"), url(../font/comic-sans-ms-webfont.woff) format("woff");
     font-weight: normal;
-    font-style: normal
+    font-style: normal;
 }
 
 hr {
@@ -600,6 +600,7 @@ footer {
 
 .game-name {
     font-size: 1.5em;
+    font-weight: normal;
     margin: 10px 0;
 }
 
@@ -752,7 +753,6 @@ footer {
 | | \ \  / ____ \| |__| || || |__| | | |____| |  | |/ ____ \| |   
 |_|  \_\/_/    \_\_____/_____\____/   \_____|_|  |_/_/    \_\_|
 */
-
 .outer-container {
     display: flex;
     justify-content: center;
