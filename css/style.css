@@ -147,7 +147,7 @@ footer p {
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 17px;
     border: none;
     outline: none;
     color: white;
@@ -225,16 +225,15 @@ footer p {
     position: static;
     flex-direction: column;
     transition: transform 1s cubic-bezier(0.075, 0.820, 0.165, 1.000), background-color 0.3s ease, color 0.3s ease;
-    cursor: pointer;
     padding-bottom: 100px;
 }
 
-.content .box-select01:hover {
-    transform: translateY(-10px);
+.content .box-select01 img {
+    cursor: pointer;
 }
 
-.content .box-select01 p {
-    text-align: center;
+.content .box-select01 img:hover {
+    transform: scale(0.45);
 }
 
 .content2 .box-container {
@@ -414,7 +413,6 @@ footer p {
 
 .version-name-container {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 10px;
 }
@@ -598,6 +596,10 @@ footer p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     flex: 1 1 calc(33.333% - 40px);
     box-sizing: border-box;
+}
+
+.game-container#blank {
+    visibility: hidden;
 }
 
 .game-thumbnail {
