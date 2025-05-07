@@ -1,0 +1,260 @@
+{
+    "news": [
+        {
+            "date": "April 7, 2025",
+            "posts": [
+                {
+                    "img": "img/favicon.png",
+                    "title": "New Website (Again)!",
+                    "info": "Once again, I've made a new (and probably final) version of my website! This time, it's built from scratch using HTML, CSS, and a bit of JavaScript, and will be updated more frequently to add some new stuff. I hope you all like it! <br> Fun Fact: You're on it right now!",
+                    "buttons": []
+                }
+            ]
+        },
+        {
+            "date": "March 1, 2025",
+            "posts": [
+                {
+                    "img": "img/thumbnails/rhythmo.png",
+                    "title": "Rhythmo Full Release",
+                    "info": "Rhythmo is out now to be played in full! Check out what's possible in this nice little rhythm game!",
+                    "buttons": [
+                        {
+                            "text": "itch.io",
+                            "link": "https://joalor64.itch.io/rhythmo"
+                        },
+                        {
+                            "text": "GitHub",
+                            "link": "https://github.com/JoaTH-Team/Rhythmo-SC/"
+                        }
+                    ]
+                },
+                {
+                    "title": "Foreverbox: V4.5 Update",
+                    "info": "Golden Sands now has three cool bonuses to check out! You probably should because they're cool!",
+                    "buttons": [
+                        {
+                            "text": "► Preview",
+                            "link": "https://www.youtube.com/watch?v=d83Bp6vTRh8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "February 16, 2025",
+            "posts": [
+                {
+                    "title": "Foreverbox V5 Announcement",
+                    "info": "Foreverbox V5: Quartzland is now in development! Check out the teaser below!",
+                    "buttons": [
+                        {
+                            "text": "► Teaser",
+                            "link": "https://www.youtube.com/watch?v=Q6ZR6Hji8q0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "February 1, 2025",
+            "posts": [
+                {
+                    "img": "img/wallpapers/battleR2.png",
+                    "title": "Foreverbox V1 Remaster",
+                    "info": "Battle has officially been remastered!<br>Check out the two new characters in the mod or something, it's cool!",
+                    "buttons": [
+                        {
+                            "text": "► Preview",
+                            "link": "https://www.youtube.com/watch?v=b9-pdZtukX8"
+                        }
+                    ]
+                },
+                {
+                    "img": "https://raw.githubusercontent.com/Joalor64GH/Foreverbox/refs/heads/desktop/favicon.png",
+                    "title": "Foreverbox Wiki",
+                    "info": "All character lore and/or content relating to Foreverbox is moving to the new wiki! Contributions are appreciated!",
+                    "buttons": [
+                        {
+                            "text": "Foreverbox Wiki",
+                            "link": "https://foreverbox.fandom.com/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "September 28, 2024",
+            "posts": [
+                {
+                    "img": "img/wallpapers/golden-sands2.png",
+                    "title": "Foreverbox V4 Release",
+                    "info": "The prophecy has been foretold! Foreverbox V4: Golden Sands has released today!",
+                    "buttons": [
+                        {
+                            "text": "► Preview",
+                            "link": "https://youtu.be/LAxmwmfpQ8w"
+                        }
+                    ]
+                },
+                {
+                    "title": "New Discord Server",
+                    "info": "I've now remastered the old Joalor64 Clan server into the new and better Joalor64's Official Discord Server! This also mashes up with the old Foreverbox and Joalor64 Engine servers!",
+                    "buttons": [
+                        {
+                            "text": "Join the Server!",
+                            "link": "https://discord.gg/rd7ZnnfN5c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "June 25, 2024",
+            "posts": [
+                {
+                    "title": "Foreverbox V4 Announcement",
+                    "info": "Foreverbox V4: Golden Sands is officially in development! Check out the teaser below!",
+                    "buttons": [
+                        {
+                            "text": "► Teaser",
+                            "link": "https://youtu.be/P1688m4bN3A?si=qWsYwTEibOYJg434"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "June 17, 2024",
+            "posts": [
+                {
+                    "title": "Foreverbox: V3.5 Update",
+                    "info": "Hey! Guess what? New Era now has all three of their bonuses! Why wasn't this done earlier? I don't know!",
+                    "buttons": [
+                        {
+                            "text": "Play the Mod",
+                            "link": "https://joalor64gh.github.io/foreverbox.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "May 4, 2024",
+            "posts": [
+                {
+                    "img": "img/wallpapers/new-era2.png",
+                    "title": "Foreverbox V3 Release",
+                    "info": "Foreverbox V3: New Era is out now! Go check it out! Now!",
+                    "buttons": [
+                        {
+                            "text": "► Preview",
+                            "link": "https://youtu.be/RLg2tuNSmKA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "April 27, 2024",
+            "posts": [
+                {
+                    "title": "Foreverbox: V2.5 Update",
+                    "info": "Heck yeah! Battle and Ascension now have all three of their bonuses! You gotta go check them out!",
+                    "buttons": [
+                        {
+                            "text": "Play the Mod",
+                            "link": "https://joalor64gh.github.io/foreverbox.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "February 10, 2024",
+            "posts": [
+                {
+                    "title": "Foreverbox V3 Announcement",
+                    "info": "Foreverbox V3 is officially in development! Check out the teaser below!",
+                    "buttons": [
+                        {
+                            "text": "► Teaser",
+                            "link": "https://youtu.be/z_bXUoT7KgM?si=4vnvpHdilBEQIQ-"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "December 25, 2023",
+            "posts": [
+                {
+                    "img": "img/wallpapers/ascension2.png",
+                    "title": "Foreverbox V2 Release",
+                    "info": "Foreverbox V2: Ascension is out now! Check it out!<br>And Merry Christmas! 🎄",
+                    "buttons": [
+                        {
+                            "text": "► Preview",
+                            "link": "https://www.youtube.com/watch?v=siJqzpB51nU"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "November 5, 2023",
+            "posts": [
+                {
+                    "title": "Foreverbox V2 Announcement",
+                    "info": "Foreverbox V2: Ascension is officially in development! Check out the teaser below!",
+                    "buttons": [
+                        {
+                            "text": "► Teaser",
+                            "link": "https://youtu.be/z_bXUoT7KgM?si=Ysbx_8sE_XpttSGcQ"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "October 14, 2023",
+            "posts": [
+                {
+                    "img": "img/wallpapers/battle2.png",
+                    "title": "Foreverbox V1 Full Release",
+                    "info": "It's finally here!<br>Have fun and stay cool!",
+                    "buttons": [
+                        {
+                            "text": "Play",
+                            "link": "https://joalor64gh.github.io/foreverbox.html"
+                        },
+                        {
+                            "text": "► Preview",
+                            "link": "https://www.youtube.com/watch?v=68p4-edy-zo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "August 10, 2023",
+            "posts": [
+                {
+                    "img": "img/wallpapers/battle2.png",
+                    "title": "Foreverbox V1 Demo Release",
+                    "info": "My first Incredibox mod!<br>I hope you enjoy!",
+                    "buttons": [
+                        {
+                            "text": "► Preview",
+                            "link": "https://www.youtube.com/watch?v=8tWvN7FxJ2o"
+                        },
+                        {
+                            "text": "► Original Song",
+                            "link": "https://www.youtube.com/watch?v=8tWvN7FxJ2o"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,11 @@
 /* © 2021 - 2025 Joalor64, All rights reserved. */
 /* Made with ❤️ */
 
+:root {
+    --default-button-color: #007bff;
+    --default-button-hover-color: #0056b3;
+}
+
 /*
   ____   ____  _______     __
  |  _ \ / __ \|  __ \ \   / /
@@ -223,12 +228,14 @@ footer p {
     justify-content: center;
     text-align: center;
     position: static;
+    cursor: default;
     flex-direction: column;
     transition: transform 1s cubic-bezier(0.075, 0.820, 0.165, 1.000), background-color 0.3s ease, color 0.3s ease;
     padding-bottom: 100px;
 }
 
 .content .box-select01 img {
+    transition: transform 0.3s ease;
     cursor: pointer;
 }
 
