@@ -4,6 +4,8 @@
 :root {
     --default-button-color: #007bff;
     --default-button-hover-color: #0056b3;
+    --secondary-button-color: #28a745;
+    --secondary-button-hover-color: #218838;
 }
 
 /*
@@ -34,7 +36,6 @@ body {
 html,
 body {
     max-width: 101%;
-    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -63,6 +64,13 @@ body {
 @font-face {
     font-family: 'Comic Sans MS';
     src: url(../font/comic-sans-ms-webfont.woff2) format("woff2"), url(../font/comic-sans-ms-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PhantomMuffin Regular';
+    src: url(../font/muff-regular-webfont.woff2) format("woff2"), url(../font/muff-regular-webfont.woff) format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -186,6 +194,65 @@ footer p {
 }
 
 /*
+  _______ ____  _____    ____  _    _ _______ _______ ____  _   _ 
+ |__   __/ __ \|  __ \  |  _ \| |  | |__   __|__   __/ __ \| \ | |
+    | | | |  | | |__) | | |_) | |  | |  | |     | | | |  | |  \| |
+    | | | |  | |  ___/  |  _ <| |  | |  | |     | | | |  | | . ` |
+    | | | |__| | |      | |_) | |__| |  | |     | | | |__| | |\  |
+    |_|  \____/|_|      |____/ \____/   |_|     |_|  \____/|_| \_|
+*/
+.progress-circle-wrapper {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 9999;
+    cursor: pointer;
+    opacity: 0;
+    transform: scale(0.7);
+    pointer-events: none;
+    transition:
+        opacity 0.3s cubic-bezier(.4, 2, .4, 1),
+        transform 0.3s cubic-bezier(.4, 2, .4, 1);
+}
+
+.progress-circle-wrapper.visible {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+}
+
+.progress-circle {
+    width: 56px;
+    height: 56px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.progress-circle:hover {
+    transform: scale(1.10);
+}
+
+.progress-circle svg {
+    transform: rotate(-90deg);
+}
+
+.progress-arrow {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 1.2em;
+    pointer-events: none;
+    color: black;
+}
+
+/*
   _    _  ____  __  __ ______ 
  | |  | |/ __ \|  \/  |  ____|
  | |__| | |  | | \  / | |__   
@@ -194,7 +261,7 @@ footer p {
  |_|  |_|\____/|_|  |_|______|
 */
 .banner {
-    background-image: url('../banners/newWebsiteBanner.png');
+    background-image: url('../img/wallpapers/glossy-interface-no-ui.png');
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -202,6 +269,18 @@ footer p {
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.banner .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'PhantomMuffin Regular', sans-serif;
+    font-size: 120px;
+    text-wrap-mode: nowrap;
 }
 
 .small-title {
@@ -349,13 +428,13 @@ footer p {
 
 .container .social-info .social-link {
     font-size: 16px;
-    color: #007BFF;
+    color: var(--default-button-color);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .container .social-info .social-link:hover {
-    color: #0056b3;
+    color: var(--default-button-hover-color);
 }
 
 /*
@@ -498,7 +577,7 @@ footer p {
     font-size: 14px;
     font-weight: bold;
     color: white;
-    background-color: #007BFF;
+    background-color: var(--default-button-color);
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -507,15 +586,15 @@ footer p {
 }
 
 .version-buttons .btn:hover {
-    background-color: #0056b3;
+    background-color: var(--default-button-hover-color);
 }
 
 .version-buttons .preview-btn {
-    background-color: #28a745;
+    background-color: var(--secondary-button-color);
 }
 
 .version-buttons .preview-btn:hover {
-    background-color: #218838;
+    background-color: var(--secondary-button-hover-color);
 }
 
 .version-buttons .soon-btn,
@@ -750,7 +829,7 @@ footer p {
     display: inline-block;
     padding: 8px 16px;
     margin-right: 10px;
-    background-color: #007BFF;
+    background-color: var(--default-button-color);
     transition: background-color 0.3s ease;
     color: white;
     border-radius: 8px;
@@ -759,7 +838,7 @@ footer p {
 }
 
 .news-buttons a:hover {
-    background-color: #0056b3;
+    background-color: var(--default-button-hover-color);
 }
 
 /*
@@ -819,14 +898,14 @@ footer p {
     cursor: pointer;
     border: none;
     border-radius: 15px;
-    background-color: #007bff;
+    background-color: var(--default-button-color);
     color: white;
     transition: background-color 0.3s;
     font-family: inherit;
 }
 
 .controls button:hover {
-    background-color: #0056b3;
+    background-color: var(--default-button-hover-color);
 }
 
 #volume-slider {
@@ -838,6 +917,61 @@ iframe {
     max-width: 500px;
     height: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/*
+   _____ ____  __  __ _____ _____    _____ ______ _   _ ______ _____         _______ ____  _____  
+  / ____/ __ \|  \/  |_   _/ ____|  / ____|  ____| \ | |  ____|  __ \     /\|__   __/ __ \|  __ \ 
+ | |   | |  | | \  / | | || |      | |  __| |__  |  \| | |__  | |__) |   /  \  | | | |  | | |__) |
+ | |   | |  | | |\/| | | || |      | | |_ |  __| | . ` |  __| |  _  /   / /\ \ | | | |  | |  _  / 
+ | |___| |__| | |  | |_| || |____  | |__| | |____| |\  | |____| | \ \  / ____ \| | | |__| | | \ \ 
+  \_____\____/|_|  |_|_____\_____|  \_____|______|_| \_|______|_|  \_\/_/    \_\_|  \____/|_|  \_\                                                                                             
+*/
+#comic-generator {
+    text-align: center;
+    margin: 20px;
+}
+
+.panel-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.comic-panel {
+    position: relative;
+    border: 2px solid black;
+    padding: 5px;
+    padding-bottom: 1px;
+    background: white;
+}
+
+.comic-panel img {
+    width: 400px;
+    height: 400px;
+}
+
+.comic-panel button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.controls#comic button {
+    margin: 5px;
+}
+
+.comic-id-controls {
+    margin-top: 1em;
+}
+
+.comic-id-controls #comicIdDisplay {
+    font-weight: bold;
+}
+
+.comic-id-controls #comicIdInput {
+    margin-left: 10px;
 }
 
 /*
@@ -864,6 +998,10 @@ iframe {
         height: 300px;
         background-size: cover;
         background-position: center;
+    }
+
+    .banner .txt {
+        font-size: 40px;
     }
 
     .content {
@@ -969,15 +1107,23 @@ iframe {
         gap: 15px;
     }
 
+    .version-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
     .version-image img {
         width: 100%;
         height: auto;
         border-radius: 15px;
+        margin-bottom: 10px;
     }
 
     .version-info {
+        align-items: center;
         text-align: center;
-        gap: 8px;
     }
 
     .version-name {
@@ -993,9 +1139,9 @@ iframe {
     }
 
     .version-buttons {
-        flex-direction: column;
         gap: 10px;
         align-items: center;
+        justify-content: center;
     }
 
     .version-buttons .btn {
@@ -1023,5 +1169,22 @@ iframe {
 
     iframe {
         order: 2;
+        width: 100vw;
+        max-width: 100%;
+        height: 50vh;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .panel-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .comic-panel img {
+        width: 90vw;
+        max-width: 100%;
+        height: auto;
     }
 }

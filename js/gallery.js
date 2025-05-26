@@ -68,12 +68,15 @@ const galleryData = [
     { src: "ixaptron.png", name: "Ixaptron" },
     { src: "javi.png", name: "Javi" },
     { src: "jyoti.png", name: "Jyoti" },
+    { src: "kabuki.png", name: "Kabuki" },
     { src: "kento.png", name: "Kento" },
     { src: "kiowa.png", name: "Kiowa" },
+    { src: "kit.png", name: "Kit" },
     { src: "leah.png", name: "Leah" },
     { src: "legendarius.png", name: "Legendarius" },
     { src: "liquaxis.png", name: "Liquaxis" },
     { src: "louloudi.png", name: "Louloudi" },
+    { src: "lucian.png", name: "Lucian" },
     { src: "masked.png", name: "Masked!Memphis" },
     { src: "mauzie.png", name: "Mauzie" },
     { src: "memphis.png", name: "Memphis" },
@@ -118,6 +121,7 @@ const galleryData = [
     { src: "vivian.png", name: "Vivian" },
     { src: "xander.png", name: "Xander" },
     { src: "xzavis.png", name: "Xzavis" },
+    { src: "yovy.png", name: "Yovy" },
     { src: "zendy.png", name: "Zendy" }
 ];
 

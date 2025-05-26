@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Joalor64's Website - Radio Chat</title>
+    <title>Joalor64's Website</title>
     <meta name='author' content='Joalor64'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
@@ -32,8 +32,8 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a class="active" href="./radio-chat.html">Radio Chat</a>
-                <a href="./random-comic-generator.html">Random Comic Generator</a>
+                <a href="./radio-chat.html">Radio Chat</a>
+                <a class="active" href="./random-comic-generator.html">Random Comic Generator</a>
                 <a href="https://joalor64gh.github.io/Modbox" target="_blank">Modbox</a>
             </div>
         </div>
@@ -41,37 +41,35 @@
             <a id="toggle-text" onclick="toggleTheme()">☀️</a>
         </div>
     </div>
-    <h1>✨Radio Chat✨</h1>
-    <h2 class="sub-head">Listen to some music and chat with others!</h2>
+    <h1>Random Comic Generator</h1>
+    <h2 class="sub-head">Make your own comic with some silly and probably stupid panels!</h2>
     <hr>
-    <div class="outer-container">
-        <div class="content-container">
-            <div class="music-player">
-                <h3>📻 Joalor64's Radio Player™ 📻</h3>
-                <div class="radio-ui">
-                    <div class="track-info">
-                        <p id="track-title">Now Playing: Sample Music</p>
-                    </div>
-                    <audio id="audio-player" controls controlslist="nodownload">
-                        <source src="audio/sample-music.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="controls">
-                        <button onclick="previousSong()">⏮ Previous</button>
-                        <button onclick="playAudio()">▶ Play</button>
-                        <button onclick="pauseAudio()">⏸︎ Pause</button>
-                        <button onclick="nextSong()">⏭ Next</button>
-                        <br>
-                        <br>
-                        <label for="volume-slider">🔊 Volume:</label>
-                        <input id="volume-slider" type="range" min="0" max="1" step="0.1"
-                            onchange="setVolume(this.value)">
-                    </div>
-                </div>
+    <div id="comic-generator">
+        <div class="panel-container">
+            <div class="comic-panel" id="panel1">
+                <img src="https://dummyimage.com/400x400/000/fff.png&text=Loading...">
+                <button onclick="toggleLock(0)">🔓</button>
             </div>
-            <iframe style="border-radius: 15px;" src="https://foreverbox-chatroom.onrender.com" width="500" height="600"
-                allowtransparency="true" frameborder="0"></iframe>
+            <div class="comic-panel" id="panel2">
+                <img src="https://dummyimage.com/400x400/000/fff.png&text=Loading...">
+                <button onclick="toggleLock(1)">🔓</button>
+            </div>
+            <div class="comic-panel" id="panel3">
+                <img src="https://dummyimage.com/400x400/000/fff.png&text=Loading...">
+                <button onclick="toggleLock(2)">🔓</button>
+            </div>
         </div>
+        <div class="controls" id="comic">
+            <button onclick="randomizeComic()">🎲 Generate New Comic</button>
+            <button onclick="saveComic(false)">💾 Save (No Watermark)</button>
+            <button onclick="saveComic(true)">💾 Save (With Watermark)</button>
+        </div>
+    </div>
+    <div class="comic-id-controls">
+        <span id="comicIdDisplay">Comic ID: Loading...</span>
+        <input type="text" id="comicIdInput" placeholder="Enter Comic ID (e.g. 4-1-5)">
+        <button onclick="setComicById(document.getElementById('comicIdInput').value); showComicId();">Load
+            Comic</button>
     </div>
     <footer>
         <br>
@@ -88,7 +86,7 @@
         </div>
     </div>
     <script src="js/script.js"></script>
-    <script src="js/radio.js"></script>
+    <script src="js/comic.js"></script>
 </body>
 
 </html>
