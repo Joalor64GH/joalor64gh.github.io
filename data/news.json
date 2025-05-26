@@ -6,7 +6,7 @@
                 {
                     "img": "img/comics/panel1/2.png",
                     "title": "Random Comic Generator",
-                    "info": "Not huge news, but I've added a silly little random comic generator to my website. Make your own comic with these somewhat nonsensical panels to complete the adventures of Blue and Green!",
+                    "info": "Not huge news, but I've added a silly little random comic generator to my website! Make your own comic with these somewhat nonsensical panels to complete the adventures of Blue and Green!",
                     "buttons": [
                         {
                             "text": "Generate a Comic",
