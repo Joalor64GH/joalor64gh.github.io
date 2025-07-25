@@ -1,6 +1,26 @@
 {
     "news": [
         {
+            "date": "July 25, 2025",
+            "posts": [
+                {
+                    "img": "img/wallpapers/quartzland2.png",
+                    "title": "Foreverbox V5 Release",
+                    "info": "Foreverbox V5: Quartzland has finally released today! Go and explore the utopia!",
+                    "buttons": [
+                        {
+                            "text": "► Preview",
+                            "link": "https://www.youtube.com/watch?v=M1pGsvyVu74"
+                        }
+                    ]
+                },
+                {
+                    "title": "Foreverbox Wiki Announcement",
+                    "info": "The fandom wiki for Foreverbox will no longer be worked on, as I'll be moving the wiki to my own website!<br>Expect an update to the Foreverbox page soon!"
+                }
+            ]
+        },
+        {
             "date": "May 26, 2025",
             "posts": [
                 {
@@ -22,8 +42,7 @@
                 {
                     "img": "img/favicon.png",
                     "title": "New Website (Again)!",
-                    "info": "Once again, I've made a new (and probably final) version of my website! This time, it's built from scratch using HTML, CSS, and a bit of JavaScript, and will be updated more frequently to add some new stuff. I hope you all like it! <br> Fun Fact: You're on it right now!",
-                    "buttons": []
+                    "info": "Once again, I've made a new (and probably final) version of my website! This time, it's built from scratch using HTML, CSS, and a bit of JavaScript, and will be updated more frequently to add some new stuff. I hope you all like it! <br> Fun Fact: You're on it right now!"
                 }
             ]
         },
