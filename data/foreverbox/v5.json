@@ -1,0 +1,261 @@
+{
+    "versionInfo": {
+        "meta": {
+            "version": 5,
+            "name": "Quartzland",
+            "desc": "Discover and explore the vast and bright utopia that is Quartzland! Where the skyline full of crystals never ends, and all of your worries are left behind! There's always something new to see!",
+            "date": "2025-07-25",
+            "downloadWin": "https://www.mediafire.com/file/fi5f6422rw5tl9b/Foreverbox_-_V5_Quartzland_%2528PC%2529.zip/file",
+            "downloadAnd": "https://www.mediafire.com/file/z1tuz42thdfy4ho/ForeverboxV5_signed.apk/file",
+            "preview": "https://www.youtube.com/watch?v=M1pGsvyVu74",
+            "isNew": true
+        },
+        "visu": {
+            "img": "quartzland1.png",
+            "colCont": "#004057",
+            "colVerIcon": "#007694"
+        }
+    },
+    "characters": [
+        {
+            "name": "Accord",
+            "desc": "Just your average worker who transfers data to nearby computers. And by data, I mean instructions on how to fix any appliance this place has. Kind of impressive, actually.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/1_accord-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 18
+        },
+        {
+            "name": "Andu",
+            "desc": "Looking for adventure? Look no further than this guy! He'll take you through the highest of mountains and the deepest of caves! ...Unless he doesn't feel like it, as he does tend to be lazy sometimes.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/2_andu-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 14
+        },
+        {
+            "name": "Tomtom",
+            "desc": "Some weird little polka-dot creature. I actually had a run-in with him. He's actually a pretty chill guy to be with when you get to know him.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/3_tomtom-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 16
+        },
+        {
+            "name": "Candi",
+            "desc": "Probably the cheeriest citizen in Quartzland that you'll ever meet. I'm convinced they're just full of serotonin and caffiene.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/4_candi-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 13
+        },
+        {
+            "name": "Belldam",
+            "desc": "The bellboy of the city. They mostly tend to ringing the bell at the top of the general services building every hour, but they occasionally also take up being a bellhop at a local 3.14-star hotel.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/5_belldam-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 15
+        },
+        {
+            "name": "Hotspot",
+            "desc": "Some robot that manages the internet connection here, yet also needs it to actually work. Not very convenient as they do have to send Chalcedony to fix them and the wi-fi.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/6_basszeun-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 6
+        },
+        {
+            "name": "Chronai",
+            "desc": "We don't know a lot about them, but they are pretty friendly and love to work with clocks. Like, REALLY love to work with clocks. Not too sure why.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/7_siren-sprite.png"
+                }
+            ],
+            "gender": "Non-Binary",
+            "age": 17
+        },
+        {
+            "name": "Gogo",
+            "desc": "A popular teenage model around these parts, who's also in a relationship with Victoriya. I recently heard that they're going to be doing a collab with them soon! Isn't that neat?",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/8_gogo-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 19
+        },
+        {
+            "name": "Statue",
+            "desc": "A really old statue built by a previous resident many years ago. It was said that they never took a break until it was finished, but that just sounds crazy.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/9_statue-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 100
+        },
+        {
+            "name": "Cy",
+            "desc": "Not really well-known here, but he's a jeweler and mostly sells exotic crystals of many varieties. After a 2-hour mining session, of course.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/10_cy-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 20
+        },
+        {
+            "name": "Column",
+            "desc": "A machine of sorts that processes *almost* any data given to it. But alas, not everything is flawless as it does tend to be a bit slower when given large amounts of data. They're currently planning to update their model.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/11_column-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 10
+        },
+        {
+            "name": "Skybot",
+            "desc": "A fellow robot that always glad to greet any newcomers, as well as helping any other robots. Really, a nice guy to be around.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/12_skybot-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 15
+        },
+        {
+            "name": "Chalcedony",
+            "desc": "Your local scientist mostly trying out new experiments just about everyday. I was told that they almost blew up their own laboratory once. WHAT could have possibly happened?",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/13_scientist-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 16
+        },
+        {
+            "name": "Tetru",
+            "desc": "A literal crystal being that we don't really know much about. Though, they are fond of gardening and polishing themselves.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/14_quadfractal-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 17
+        },
+        {
+            "name": "Carl",
+            "desc": "I forgot to mention, Chalcedony is also an engineer and created Carl. They may glitch out at some times, but other than that, Carl is pretty good at fixing appliances.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/15_musiboxy-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 14
+        },
+        {
+            "name": "Onyx",
+            "desc": "They seem like a normal citizen, but no one really knows anything about them. He sort of just hangs out in the city meeting new people, but that's all we got.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/16_onyx-sprite.png"
+                }
+            ],
+            "gender": "Non-Binary (he/him)",
+            "age": 17
+        },
+        {
+            "name": "5A, 5B, 5C",
+            "desc": "Some little TV modules created for prototyping a multi-display screen. Mostly successful, since the third one doesn't really work without an extra USB port.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/17_modules-sprite.png"
+                }
+            ],
+            "gender": "Male (All)",
+            "age": 15
+        },
+        {
+            "name": "Starro",
+            "desc": "Really likes space and anything related to it, but is also a popular trainer around here. Want to get fit? Call up this guy, and he'll probably get you running to the moon and back.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/18_starro-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 20
+        },
+        {
+            "name": "Victoriya",
+            "desc": "A blacksmith who makes tools and many other objects, who's in a ralationship with Gogo. They plan on using her blacksmithing skills to make accessories out of her many metals.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/19_victoriya-sprite.png"
+                }
+            ],
+            "gender": "F",
+            "age": 18
+        },
+        {
+            "name": "Prince Reuben",
+            "desc": "The one in charge of all of Quartzland, who's also a respectable gentleman. I only find it odd how he's the prince of a city, but I don't really mind.",
+            "imgs": [
+                {
+                    "title": "V5",
+                    "img": "v5/20_rubisco-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 22
+        }
+    ]
+}

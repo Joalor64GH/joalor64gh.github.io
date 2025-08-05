@@ -1,0 +1,369 @@
+{
+    "versionInfo": {
+        "meta": {
+            "version": 1,
+            "name": "Battle",
+            "desc": "Enjoy the fresh sounds of music from someone who tried their best at making their first Incredibox mod! This mod gives off probably the most random vibes you can think of!",
+            "date": "2023-08-10 (Demo) / 2023-10-14 (Full Version)",
+            "downloadWin": "https://www.mediafire.com/file/h5oe40b883intkg/Foreverbox_-_V1_Remaster.zip/file",
+            "downloadAnd": "https://www.mediafire.com/file/me1pyehoe5yizxl/Foreverbox-V1Remaster_signed.apk/file",
+            "preview": "https://www.youtube.com/watch?v=b9-pdZtukX8",
+            "isNew": false
+        },
+        "visu": {
+            "img": "battleR1.png",
+            "colCont": "#15003b",
+            "colVerIcon": "#320169"
+        }
+    },
+    "characters": [
+        {
+            "name": "Joshua",
+            "desc": "One of the members of the Pink Flames. Commonly referred to by the crew as the \"Hooded Kicker\", because he can kick really hard. And he wears a hood.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/1_kicker-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/1_kicker-sprite.png"
+                },
+                {
+                    "title": "V2",
+                    "img": "v2/1_star-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 15
+        },
+        {
+            "name": "Dr. Bandages",
+            "desc": "The doctor of the Pink Flames. Got an injury? He can help. Also, he got an injury on his eyes, but he really doesn't like to talk about it.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/2_clap-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/2_clap-sprite.png"
+                },
+                {
+                    "title": "V2",
+                    "img": "v2/2_healed-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 19
+        },
+        {
+            "name": "Alex",
+            "desc": "He's had this gear on his head since he was a kid, and they only like it because it flashes. Also, the rest of the team jokingly use him as a flashlight. He doesn't mind, though.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/3_snaresque-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/3_snaresque-sprite.png"
+                },
+                {
+                    "title": "V3",
+                    "img": "v3/14_alex-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 17
+        },
+        {
+            "name": "Crystalite XPR-01M",
+            "desc": "A somewhat successful experiment created by Doctor Bandages. Made from the crystals of the Roxboia Caves. He just helps around the place, but can only talk in morse code.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/4_clickclick-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/4_clickclick-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 4
+        },
+        {
+            "name": "T.L.O.A.T.",
+            "desc": "A robot that was created by Tristan as a test for future experiments. Was gifted to the Pink Flames because they thought \"it would be helpful\". All it does is sense nearby people.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/5_cymbal-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/5_cymbal-sprite.png"
+                }
+            ],
+            "gender": "None (Prefers he/them)",
+            "age": 1
+        },
+        {
+            "name": "Ben",
+            "desc": "Elected leader of the Purple Stars. He doesn't really talk much, but he makes a good leader and whatnot.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/6_bassus-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/6_bassus-sprite.png"
+                },
+                {
+                    "title": "V2",
+                    "img": "v2/7_bassus-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 14
+        },
+        {
+            "name": "Taiko",
+            "desc": "Doesn't have an actual name, but it's just a sentient drum. Nobody knows how it came to be, but it likes to bust some tunes every now and then.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/7_taiko-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/7_taiko-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 6
+        },
+        {
+            "name": "Dan",
+            "desc": "Some guy who really thinks he's just him. Other than that, he does have some crazy fighting skills, so maybe he is him.",
+            "imgs": [
+                {
+                    "title": "V1",
+                    "img": "v1R/8_whisp-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 16
+        },
+        {
+            "name": "Tristan",
+            "desc": "The creator of T.L.O.A.T. and a member of the Purple Stars. Likes to make robots, apparently. Maybe his skills would be useful in the future?",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/9_triang-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/9_triang-sprite.png"
+                }
+            ],
+            "gender": "Non-Binary (he/them)",
+            "age": 18
+        },
+        {
+            "name": "Synthell",
+            "desc": "The favored member of the Purple Stars. Simply serves as an alarm of some sorts, and has fun doing it. They're also the brother of Synthia.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/10_pad-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/10_pad-sprite.png"
+                },
+                {
+                    "title": "V2",
+                    "img": "v2/10_pad-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 13
+        },
+        {
+            "name": "Piano Thing",
+            "desc": "Yet another sentient instrument, what else is new? Loves to jam with Crystalite XPR-03C. No further explanation needed.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/11_pian-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/11_pian-sprite.png"
+                },
+                {
+                    "title": "V2",
+                    "img": "v2/12_piano-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 8
+        },
+        {
+            "name": "Crystalite XPR-03C",
+            "desc": "Another experiment by Dr. Bandages for some reason. This one was more successful. He made it so that it plays a soothing tune when anybody is stressed.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/12_vibra-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/12_vibra-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 3
+        },
+        {
+            "name": "Vivian",
+            "desc": "The leader of the Aqua Terrors. Apparently can shout so loud that it's enough to knock back any oncoming enemies, which makes him the strongest of the team I guess?",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/13_siren-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/13_siren-sprite.png"
+                },
+                {
+                    "title": "V3",
+                    "img": "v3/15_vellia-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 17
+        },
+        {
+            "name": "Sawy-81B",
+            "desc": "A simple experiment by Vivian, with the help of Tristan. He was inspired by Dr. Bandages and his creations, so he made this. It just plays a sawtooth sound, so that's something.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/14_saw-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/14_saw-sprite.png"
+                },
+                {
+                    "title": "V2",
+                    "img": "v2/14_saw-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 2
+        },
+        {
+            "name": "Synthia",
+            "desc": "The main fighter of the Aqua Terrors. Is dangerously powerful, as shown by the fact that they could split a brick wall in half in one punch. They're also the brother of Synthell.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/15_synthia-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/15_synthia-sprite.png"
+                },
+                {
+                    "title": "V3",
+                    "img": "v3/13_synthia-sprite.png"
+                }
+            ],
+            "gender": "Male (Any pronouns)",
+            "age": 15
+        },
+        {
+            "name": "Chris",
+            "desc": "Leader of the Blue Waves. Loves his duty as the leader, but refuses to take off his glasses, and we don't know why. Not yet, at least.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/16_chora-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/16_chora-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 16
+        },
+        {
+            "name": "Esther",
+            "desc": "Loves outer space and anything related to it. Occasionally goes to her telescope at night and looks at the shining stars in the night sky. Wonder what's out there.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/17_estrella-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/17_estrella-sprite.png"
+                },
+                {
+                    "title": "V2",
+                    "img": "v2/19_luna-sprite.png"
+                }
+            ],
+            "gender": "F",
+            "age": 14
+        },
+        {
+            "name": "Gilchrist",
+            "desc": "Your local irishman who doesn't do much but help out with setting up weapons and other utilities. ...And playing his trusty bagpipe.",
+            "imgs": [
+                {
+                    "title": "V1",
+                    "img": "v1R/18_bagpiper-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 13
+        },
+        {
+            "name": "Kore",
+            "desc": "A former demon of the underworld who was rejected for being \"defective\". Currently resides with the other members of the Blue Waves assisting with fixing weapons or healing others.",
+            "imgs": [
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/19_khhor-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/19_khhor-sprite.png"
+                }
+            ],
+            "gender": "Male (they/them)",
+            "age": 231
+        },
+        {
+            "name": "General Jeff",
+            "desc": "Not much to say about this guy. Other than that he's really bossy on the battlefield when he's not doing his ridiculous, but effective, workouts.",
+            "imgs": [
+                {
+                    "title": "V1",
+                    "img": "v1R/20_heyhey-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 24
+        }
+    ]
+}

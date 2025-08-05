@@ -1,6 +1,21 @@
 {
     "news": [
         {
+            "date": "August 5, 2025",
+            "posts": [
+                {
+                    "title": "Foreverbox Page Overhaul",
+                    "info": "The page is now clean and fresh, with a brand new layout and lore for all cheracters seen in the mod so far! Why don't you go check it out?",
+                    "buttons": [
+                        {
+                            "text": "Foreverbox",
+                            "link": "https://joalor64gh.github.io/foreverbox.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "date": "July 25, 2025",
             "posts": [
                 {

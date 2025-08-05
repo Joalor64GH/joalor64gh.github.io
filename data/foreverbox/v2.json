@@ -1,0 +1,329 @@
+{
+    "versionInfo": {
+        "meta": {
+            "version": 2,
+            "name": "Ascension",
+            "desc": "Ever wanted to go to heaven without actually dying? That's exactly what this mod is for! Dive through a musical landscape of sounds that are heavenly, as well as vibey!",
+            "date": "2023-12-25",
+            "downloadWin": "https://mega.nz/file/GHQEBKST#GG3OikW86UonDom1ez2oFP0qMghAew--nirZDMt9VFE",
+            "downloadAnd": "https://mega.nz/file/GeB1hIQI#_1doR18TWxRespbA2Vepzq0Ph_7W3Bm2h8jmo0_1zaw",
+            "preview": "https://www.youtube.com/watch?v=siJqzpB51nU",
+            "isNew": false
+        },
+        "visu": {
+            "img": "ascension1.png",
+            "colCont": "#002c3b",
+            "colVerIcon": "#006071"
+        }
+    },
+    "characters": [
+        {
+            "name": "Joshua",
+            "desc": "One of the members of the Pink Flames. Commonly referred to by the crew as the \"Hooded Kicker\", because he can kick really hard. And he wears a hood.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/1_star-sprite.png"
+                },
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/1_kicker-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/1_kicker-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 15
+        },
+        {
+            "name": "Dr. Bandages",
+            "desc": "The doctor of the Pink Flames. Got an injury? He can help. Also, he got an injury on his eyes, but he really doesn't like to talk about it.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/2_healed-sprite.png"
+                },
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/2_clap-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/2_clap-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 19
+        },
+        {
+            "name": "SnareBot-777",
+            "desc": "Another one of Tristan's creations. Based off of Alex because they're just good pals.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/3_trisnare-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 3
+        },
+        {
+            "name": "Mind Drummer",
+            "desc": "A deity of sorts that quite literally has a drum on their head, hence their name. They're also apparently the creator of all sentient instruments, and do it for fun.",
+            "imgs": [
+                {
+                    "title": "2",
+                    "img": "v2/4_bongo-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 190
+        },
+        {
+            "name": "Chasy",
+            "desc": "Just a clock that seemingly came to life one day. Doesn't do much besides telling the time. I mean, what else does a clock do?",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/5_clock-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 4
+        },
+        {
+            "name": "Bernard",
+            "desc": "The cousin of Ben and the leader of the Golden Gems, after he recently got a job there. Kind of bossy, but at least the people take him seriously.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/6_bassi-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 17
+        },
+        {
+            "name": "Ben",
+            "desc": "Elected leader of the Purple Stars. He doesn't really talk much, but he makes a good leader and whatnot.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/7_bassus-sprite.png"
+                },
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/6_bassus-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/6_bassus-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 14
+        },
+        {
+            "name": "Iptamenos",
+            "desc": "Where do I even start here? This is literally just a floating head. What else do you want me to tell you?",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/8_mouthful-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 200
+        },
+        {
+            "name": "Shaka",
+            "desc": "An angel who simply helps around the Aurora Isles, usually guiding people and/or other angels. Also one of my friends along with Ulysses.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/9_schacka-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 123
+        },
+        {
+            "name": "Synthell",
+            "desc": "The favored member of the Purple Stars. Simply serves as an alarm of some sorts, and has fun doing it. They're also the brother of Synthia.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/10_pad-sprite.png"
+                },
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/10_pad-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/10_pad-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 13
+        },
+        {
+            "name": "Heliodoros",
+            "desc": "It's me! If you didn't know, I'm the one writing these docs and the leader of the Turquoise Celestials. I also own the Golden Gates of the Clouds, but that's not actually important, is it?",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/11_protector-sprite.png"
+                }
+            ],
+            "gender": "Non-Binary (he/him)",
+            "age": "∞"
+        },
+        {
+            "name": "Piano Thing",
+            "desc": "Yet another sentient instrument, what else is new? Loves to jam with Crystalite XPR-03C. No further explanation needed.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/12_piano-sprite.png"
+                },
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/11_pian-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/11_pian-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 8
+        },
+        {
+            "name": "Kodonisma",
+            "desc": "Another creation of the Mind Drummer. According to him, it \"does nothing else but ring\". At least it does when neccessary.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/13_bells-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 3
+        },
+        {
+            "name": "Sawy-81B",
+            "desc": "A simple experiment by Vivian, with the help of Tristan. He was inspired by Dr. Bandages and his creations, so he made this. It just plays a sawtooth sound, so that's something.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/14_saw-sprite.png"
+                },
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/14_saw-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/14_saw-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 2
+        },
+        {
+            "name": "Trumbi",
+            "desc": "Doesn't talk much, but they absolutely love the trumpet. However, they also seem to be sensitive at times.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/15_trumbi-sprite.png"
+                },
+                {
+                    "title": "V4",
+                    "img": "v4/12_tumbari-sprite.png"
+                }
+            ],
+            "gender": "Male",
+            "age": 13
+        },
+        {
+            "name": "Ulysses",
+            "desc": "Another deity who's main power seems to be hypnotizing others? Interesting, but I don't see why one would that that ability. Other than that, another good friend of mine.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/16_lost-sprite.png"
+                },
+                {
+                    "title": "V4",
+                    "img": "v4/18_ulysses-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 150
+        },
+        {
+            "name": "Cosin-49C",
+            "desc": "I was inspired by Tristan and actually made my own robot! With his help, of course. I'm honestly proud of it.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/17_cosin-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 2
+        },
+        {
+            "name": "Eggy",
+            "desc": "I-<br>Wh-<br>This is literally just a living egg.<br>I can't even.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/18_yevangeliye-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 12
+        },
+        {
+            "name": "Esther",
+            "desc": "Loves outer space and anything related to it. Occasionally goes to her telescope at night and looks at the shining stars in the night sky. Wonder what's out there.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/19_luna-sprite.png"
+                },
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/17_estrella-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/17_estrella-sprite.png"
+                }
+            ],
+            "gender": "F",
+            "age": 14
+        },
+        {
+            "name": "Beau",
+            "desc": "Told me a few interesting stories, one of them being about how he encountered a mysterious cannon in a cloudy area. He then got into it, out of curiosity, then it shot him all the way up into the sky, and he ended up here. Other than that, he has a weird fascination for cannons.",
+            "imgs": [
+                {
+                    "title": "V2",
+                    "img": "v2/20_mmm-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/18_bagpiper-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 13
+        }
+    ]
+}

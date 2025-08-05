@@ -19,6 +19,7 @@ const galleryData = [
     { src: "blair.png", name: "Blair" },
     { src: "bor.png", name: "boR" },
     { src: "bugger.png", name: "Bugger" },
+    { src: "buzzle.png", name: "Buzzle" },
     { src: "charis.png", name: "Charis" },
     { src: "chiffon.png", name: "Chiffon" },
     { src: "chiko.png", name: "Chiko" },

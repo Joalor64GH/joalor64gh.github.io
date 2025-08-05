@@ -1,0 +1,273 @@
+{
+    "versionInfo": {
+        "meta": {
+            "version": 4,
+            "name": "Golden Sands",
+            "desc": "Are you brave or worthy enough to travel through the dangerous and perilous sands of Nasir Valley? Or navigate the maze-like structures inside of the many pyramids? Only one way to find out...",
+            "date": "2024-09-28",
+            "downloadWin": "https://www.mediafire.com/file/cw8wsndd0u6l7uk/Foreverbox_-_V4_Update_%2528PC%2529.zip/file",
+            "downloadAnd": "https://www.mediafire.com/file/ut0g14bhcfyy43t/Foreverbox-V4Update_signed.apk/file",
+            "preview": "https://www.youtube.com/watch?v=LAxmwmfpQ8w",
+            "isNew": false
+        },
+        "visu": {
+            "img": "golden-sands1.png",
+            "colCont": "#5f4d18",
+            "colVerIcon": "#bd8d14"
+        }
+    },
+    "characters": [
+        {
+            "name": "Brixter and Baxter",
+            "desc": "Some cute little bricks that love to be stacked! There are a whole ton of them, actually. They also have an annual game of Jenga.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/1_brixnbax-sprite.png"
+                }
+            ],
+            "gender": "Male (Both)",
+            "age": ">300"
+        },
+        {
+            "name": "Onuphrius",
+            "desc": "Currently the pharoah of a kingdom in the middle of Nasir Valley. Besides that, he looks great for his age.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/2_tut-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 28
+        },
+        {
+            "name": "Deulda",
+            "desc": "A living skeleton that likes to occasionally scare people for a living. That's literally it.<br>I swear if I hear another Sans joke-",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/3_skylowkey-sprite.png"
+                }
+            ],
+            "gender": "Undead",
+            "age": 102
+        },
+        {
+            "name": "Mohar",
+            "desc": "Claims he's tough, but really just likes to look cool. He's actually good friends with a lot of people.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/4_jabba-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 19
+        },
+        {
+            "name": "Bob",
+            "desc": "Some weird void being held together with bricks and cement. They also like to participate in Jenga games with Brixter and Baxter.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/5_bob-sprite.png"
+                }
+            ],
+            "gender": "Void",
+            "age": ">200"
+        },
+        {
+            "name": "Pierre",
+            "desc": "The owner of Pyra Inc.™ and good friend of Muhammed. He mostly works on blueprints for new buildings and stuff, but when he's not, he loves to pull pranks on others with Muhammed.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/6_piramido-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 18
+        },
+        {
+            "name": "Gunther",
+            "desc": "He really likes stringed instruments, so he made himself a facial guitar that he can play it at his will. He also plans to release a whole bunch of them so others can enjoy his invention. How generous of him.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/7_guit-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 14
+        },
+        {
+            "name": "Snake Guy",
+            "desc": "Doesn't have an actual name, but he's literally just a dude with a snake head. Egyptian mythology, <b>AMIRITE</b>?",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/8_slither-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 16
+        },
+        {
+            "name": "Tabl",
+            "desc": "Believe it or not, this isn't actually another one of Mind Drummer's creations. This guy was handmade by some dude who was bored one day and wanted to impress others with his handcrafting skills.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/9_tabl-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 9
+        },
+        {
+            "name": "Bea T. Nick",
+            "desc": "Bea is a fellow member of Pyra Inc.™ and usually tends to holding meetings about the latest percussive instruments. No, that is not a joke.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/10_duku-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 15
+        },
+        {
+            "name": "Kris Tall",
+            "desc": "It's a crystal in a bubble, so we had to name him Kris. What do you guys think of him?",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/11_kris-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": ">100"
+        },
+        {
+            "name": "Trumbi",
+            "desc": "Doesn't talk much, but they absolutely love the trumpet. However, they also seem to be sensitive at times.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/12_tumbari-sprite.png"
+                },
+                {
+                    "title": "V2",
+                    "img": "v2/15_trumbi-sprite.png"
+                }
+            ],
+            "gender": "Male",
+            "age": 13
+        },
+        {
+            "name": "Muhammed",
+            "desc": "The friend of Pierre and brother of Masika. Mostly known for their mischievous pranks, and delicious pies apparently.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/13_muhammed-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 17
+        },
+        {
+            "name": "Masika",
+            "desc": "A well-known weaver and the sister of Muhammed. People absolutely love her special patterns made with the silkiest of strings.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/14_hijab-sprite.png"
+                }
+            ],
+            "gender": "F",
+            "age": 18
+        },
+        {
+            "name": "Oudjat",
+            "desc": "Another obscure deity. Yes, this floating eye is a god. What else do you need to know?",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/15_oudjat-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 1234
+        },
+        {
+            "name": "Vipur",
+            "desc": "The prince of Nasir Valley. He usually helps Onuphrius with his duties as the pharoah. We don't actyallu know much else about him other than that he's a prophet of sorts.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/16_foretold-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 22
+        },
+        {
+            "name": "Mozaika",
+            "desc": "Despite being timid most of the time, they serve as a tour guide and give newcomers all the information they need about Prism City.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/17_mozaika-sprite.png"
+                },
+                {
+                    "title": "V3",
+                    "img": "v3/16_mosaic-sprite.png"
+                }
+            ],
+            "gender": "Male (Any pronouns)",
+            "age": 16
+        },
+        {
+            "name": "Ulysses",
+            "desc": "Another deity who's main power seems to be hypnotizing others? Interesting, but I don't see why one would that that ability. Other than that, another good friend of mine.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/18_ulysses-sprite.png"
+                },
+                {
+                    "title": "V2",
+                    "img": "v2/16_lost-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 150
+        },
+        {
+            "name": "Akh",
+            "desc": "Another member of Pyra Inc.™, who actually takes their job seriously. Also they were cursed a after raiding an abandoned pyramid, but who cares about that?",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/19_cursed-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 18
+        },
+        {
+            "name": "Moshe",
+            "desc": "The richest guy in all of Nasir Valley. But he's not your average rich guy. He actually thinks of others and shares his wealth with them. Be like Moshe.",
+            "imgs": [
+                {
+                    "title": "V4",
+                    "img": "v4/20_rich-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 16
+        }
+    ]
+}

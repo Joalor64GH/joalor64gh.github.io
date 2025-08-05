@@ -1,0 +1,289 @@
+{
+    "versionInfo": {
+        "meta": {
+            "version": 3,
+            "name": "New Era",
+            "desc": "Robots, random entities, lots of colors and more! Make beats as we go through the mysterious and futuristic place that is Prism City!",
+            "date": "2024-05-04",
+            "downloadWin": "https://mega.nz/file/eWhj0YTb#7oqQiCmisSQCMjPKfmIl-30kNyIZT7Dyrkotp2VPRVU",
+            "downloadAnd": "https://www.mediafire.com/file/j7f9mqcg4h7w3b4/ForeverboxV3.5_signed.apk/file",
+            "preview": "https://www.youtube.com/watch?v=RLg2tuNSmKA",
+            "isNew": false
+        },
+        "visu": {
+            "img": "new-era1.png",
+            "colCont": "#3a364e",
+            "colVerIcon": "#57556a"
+        }
+    },
+    "characters": [
+        {
+            "name": "Bubot",
+            "desc": "That's not his actual name, yet we don't know what it is. All we do know is that his robot mask is only for decorative purposes.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/1_diamante-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 13
+        },
+        {
+            "name": "Tahir",
+            "desc": "A technician working for the Black Diamonds. Seeing that they are good at working with machines and stuff, there's *almost* nothing they can't fix.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/2_tahir-sprite.png"
+                }
+            ],
+            "gender": "Non-Binary",
+            "age": 13
+        },
+        {
+            "name": "Oxroid",
+            "desc": "Another one of Tristan's experiments. Most likely a test, as it has no actual functionality.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/3_oxroid-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 1
+        },
+        {
+            "name": "Nex",
+            "desc": "Another demon of sorts from the underworld, apparently. We sort of just found him wandering around. He isn't dangerous, but he we can't assume he's safe.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/4_sundae-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 131
+        },
+        {
+            "name": "Chen",
+            "desc": "Leader of the Black Diamonds. Also happens to be the creator and founder of this incredibly futuristic society.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/5_koukgu-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 19
+        },
+        {
+            "name": "Gerald",
+            "desc": "A member of the Cyan Diamonds. You'd think his face accessory is a guitar, but it's actually just a grate. He doesn't seem to mind that much.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/6_basse-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 14
+        },
+        {
+            "name": "Amp",
+            "desc": "Share's the same power as Vivian, only they don't use it for fighting. It's mostly just for playing music at parties.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/7_uuasovi-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 21
+        },
+        {
+            "name": "Choku",
+            "desc": "We don't know what this thing is. He just showed up one day and decided to reside with the other civillians.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/8_lead-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 8
+        },
+        {
+            "name": "Display",
+            "desc": "A simple display screen whose main purpose is to display shapes. Doesn't sound like much, but it does keep kids entertained.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/9_polugonos-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 7
+        },
+        {
+            "name": "Eyevan",
+            "desc": "The security guard of the Cyan Diamonds. Besides doing his job and preventing any danger, he really likes telling jokes and puns. His name is literally a pun.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/10_eyevan-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 20
+        },
+        {
+            "name": "Tetra",
+            "desc": "Lots of robots here. I don't mind, but we get at least a few more actual people here?",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/11_tetramet-sprite.png"
+                }
+            ],
+            "gender": "None",
+            "age": 5
+        },
+        {
+            "name": "Quodara",
+            "desc": "Some being with a sliced up face that they can use to make piano sounds. At least that's sort of original, I guess?",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/12_piany-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 13
+        },
+        {
+            "name": "Synthia",
+            "desc": "The main fighter of the Aqua Terrors. Is dangerously powerful, as shown by the fact that they could split a brick wall in half in one punch. They're also the brother of Synthell.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/13_synthia-sprite.png"
+                },
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/15_synthia-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/15_synthia-sprite.png"
+                }
+            ],
+            "gender": "Male (Any pronouns)",
+            "age": 15
+        },
+        {
+            "name": "Alex",
+            "desc": "He's had this gear on his head since he was a kid, and they only like it because it flashes. Also, the rest of the team jokingly use him as a flashlight. He doesn't mind, though.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/14_alex-sprite.png"
+                },
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/3_snaresque-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/3_snaresque-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 17
+        },
+        {
+            "name": "Vivian",
+            "desc": "The leader of the Aqua Terrors. Apparently can shout so loud that it's enough to knock back any oncoming enemies, which makes him the strongest of the team I guess?",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/15_vellia-sprite.png"
+                },
+                {
+                    "title": "V1 (New)",
+                    "img": "v1R/13_siren-sprite.png"
+                },
+                {
+                    "title": "V1 (Old)",
+                    "img": "v1/13_siren-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 17
+        },
+        {
+            "name": "Mozaika",
+            "desc": "Despite being timid most of the time, they serve as a tour guide and give newcomers all the information they need about Prism City.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/16_mosaic-sprite.png"
+                },
+                {
+                    "title": "V4",
+                    "img": "v4/17_mozaika-sprite.png"
+                }
+            ],
+            "gender": "Male (Any pronouns)",
+            "age": 16
+        },
+        {
+            "name": "Da Swag E",
+            "desc": "Some El Cool P wannabe. The only thing he raps about is how good he can rap. Check out his tracks on SoundCloud if you want to.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/17_da-swag-e-sprite.png"
+                }
+            ],
+            "gender": "M",
+            "age": 15
+        },
+        {
+            "name": "Veronika",
+            "desc": "Usually assists with tasks around the building of the White Diamonds, and occasionally trying out new fashion styles. She just likes to look good on the job.",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/18_veronika-sprite.png"
+                }
+            ],
+            "gender": "F",
+            "age": 19
+        },
+        {
+            "name": "Rho",
+            "desc": "Prism City's local stoplight and member of the White Diamonds. They're so loud, you can hear them from a mile away! Literally!",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/19_rhododendron-sprite.png"
+                }
+            ],
+            "gender": "F",
+            "age": 18
+        },
+        {
+            "name": "Pandora",
+            "desc": "Mostly does work scanning any documents sent to them, sending the good ones off to be approved, and the bad ones in some box she urges everyone else not to open. What else could be in there besides bad documents?",
+            "imgs": [
+                {
+                    "title": "V3",
+                    "img": "v3/20_kore-sprite.png"
+                }
+            ],
+            "gender": "F",
+            "age": 20
+        }
+    ]
+}
