@@ -1,9 +1,4 @@
-const panelData = [
-    ["1", "2", "3", "4", "5", "6", "7", "8"],
-    ["1", "2", "3", "4", "5", "6", "7", "8"],
-    ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
-];
-
+const panelData = [];
 const locks = [false, false, false];
 
 function toggleLock(index) {
@@ -77,6 +72,13 @@ function saveComic(withWatermark) {
         link.href = canvas.toDataURL();
         link.click();
     });
+}
+
+for (let i = 0; i < 3; i++) {
+    panelData[i] = [];
+    for (let j = 1; j <= 9; j++) {
+        panelData[i].push(j.toString());
+    }
 }
 
 randomizeComic();

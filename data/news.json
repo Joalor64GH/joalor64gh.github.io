@@ -1,6 +1,26 @@
 {
     "news": [
         {
+            "date": "August 24, 2025",
+            "posts": [
+                {
+                    "img": "img/comics/panel2/9.png",
+                    "title": "RCG Update",
+                    "info": "The random comic generator page has gotten a new makeover and TWO new panels! But there can be more since you can now submit your own ideas! Check the Google Form below!",
+                    "buttons": [
+                        {
+                            "text": "Random Comic Generator",
+                            "link": "https://joalor64gh.github.io/random-comic-generator.html"
+                        },
+                        {
+                            "text": "Submit an Idea",
+                            "link": "https://forms.gle/ynpe1Bt3Ruynzvk17"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "date": "August 5, 2025",
             "posts": [
                 {

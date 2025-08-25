@@ -794,6 +794,7 @@ footer p {
 
 .character-modal-img-title {
     font-size: 0.95em;
+    color: #aaa;
     margin-bottom: 2px;
 }
 
@@ -1129,49 +1130,155 @@ iframe {
 */
 #comic-generator {
     text-align: center;
-    margin: 20px;
+    margin: 30px auto 30px auto;
+    padding: 30px 20px 20px 20px;
+    background: linear-gradient(135deg, #3a7cff 0%, #a1c4fd 100%);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px rgba(58, 124, 255, 0.15);
+    max-width: 1200px;
+    border: 3px solid #fff;
+    position: relative;
 }
 
 .panel-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 15px;
+    gap: 30px;
+    margin-bottom: 25px;
 }
 
 .comic-panel {
     position: relative;
-    border: 2px solid black;
-    padding: 5px;
-    padding-bottom: 1px;
-    background: white;
+    border: 3px solid #1976d2;
+    border-radius: 18px;
+    padding: 10px 10px 6px 10px;
+    background: #fff;
+    box-shadow: 0 4px 16px rgba(58, 124, 255, 0.18);
+    transition: box-shadow 0.2s;
+}
+
+.comic-panel:hover {
+    box-shadow: 0 8px 32px rgba(58, 124, 255, 0.28);
 }
 
 .comic-panel img {
-    width: 400px;
-    height: 400px;
+    width: 340px;
+    height: 340px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    background: #e3e8ff;
 }
 
 .comic-panel button {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 12px;
+    right: 12px;
+    font-size: 1.5em;
+    background: #3a7cff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 8px rgba(58, 124, 255, 0.18);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.comic-panel button:hover {
+    background: #1976d2;
 }
 
 .controls#comic button {
-    margin: 5px;
+    margin: 8px 12px;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    border-radius: 16px;
+    background: #fff;
+    color: #1976d2;
+    border: 2px solid #1976d2;
+    font-family: 'Comic Sans MS', 'PhantomMuffin Regular', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(58, 124, 255, 0.10);
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.controls#comic button:hover {
+    background: #1976d2;
+    color: #fff;
 }
 
 .comic-id-controls {
-    margin-top: 1em;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(58, 124, 255, 0.10);
+    padding: 18px 0 12px 0;
+    display: inline-block;
+    width: 350px;
 }
 
 .comic-id-controls #comicIdDisplay {
     font-weight: bold;
+    color: #1976d2;
+    font-size: 1.1em;
+    margin-right: 10px;
 }
 
 .comic-id-controls #comicIdInput {
     margin-left: 10px;
+}
+
+.submit-panel-section {
+    background: linear-gradient(135deg, #fff 60%, #a1c4fd 100%);
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(58, 124, 255, 0.10);
+    padding: 24px 0 18px 0;
+    margin: 30px auto 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.submit-panel-section h2 {
+    font-family: 'PhantomMuffin Regular', 'Comic Sans MS', sans-serif;
+    color: #3a7cff;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px #a1c4fd88;
+}
+
+.submit-panel-section p {
+    color: #22232f;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.submit-panel-section a {
+    color: #1976d2;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.submit-panel-section a:hover {
+    color: #3a7cff;
+}
+
+.submit-panel-section h3 {
+    color: #1976d2;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-size: 1.2em;
+    font-family: 'Comic Sans MS', 'PhantomMuffin Regular', sans-serif;
+}
+
+.submit-panel-section p:last-child {
+    color: #444;
+    font-size: 1em;
+    margin-bottom: 0;
 }
 
 /*

@@ -23,6 +23,7 @@ const galleryData = [
     { src: "charis.png", name: "Charis" },
     { src: "chiffon.png", name: "Chiffon" },
     { src: "chiko.png", name: "Chiko" },
+    { src: "", name: "Chiyo" },
     { src: "circleguy.png", name: "Circle Guy" },
     { src: "clementina.png", name: "Clementina" },
     { src: "copykat.png", name: "CopyKat" },
@@ -30,6 +31,7 @@ const galleryData = [
     { src: "creator.png", name: "Creator!Memphis" },
     { src: "crescendo.png", name: "Crescendo" },
     { src: "cubic.png", name: "Cubic" },
+    { src: "", name: "Cumulus" },
     { src: "dagon.png", name: "Dagon" },
     { src: "dango.png", name: "Dango" },
     { src: "dayaram.png", name: "Dayaram" },
@@ -61,6 +63,7 @@ const galleryData = [
     { src: "homo.png", name: "Homo!Memphis" },
     { src: "hoodedspy.png", name: "Hooded Spy" },
     { src: "hoppa.png", name: "Hoppa" },
+    { src: "", name: "Hunter" },
     { src: "ikram.png", name: "Ikram" },
     { src: "inflictor.png", name: "Inflictor" },
     { src: "iriseis.png", name: "Iriseis" },
@@ -71,6 +74,7 @@ const galleryData = [
     { src: "jyoti.png", name: "Jyoti" },
     { src: "kabuki.png", name: "Kabuki" },
     { src: "kento.png", name: "Kento" },
+    { src: "", name: "Kiko" },
     { src: "kiowa.png", name: "Kiowa" },
     { src: "kit.png", name: "Kit" },
     { src: "leah.png", name: "Leah" },
@@ -81,15 +85,18 @@ const galleryData = [
     { src: "masked.png", name: "Masked!Memphis" },
     { src: "mauzie.png", name: "Mauzie" },
     { src: "memphis.png", name: "Memphis" },
+    { src: "michiko.png", name: "Michiko" },
     { src: "misty.png", name: "Misty" },
     { src: "mono.png", name: "Mono" },
     { src: "moxie.png", name: "Moxie" },
     { src: "mosaic.png", name: "Mozaika" },
     { src: "ms.clockworks.png", name: "Ms. Clockworks" },
     { src: "mumtaz.png", name: "Mumtaz" },
+    { src: "neo.png", name: "Neo" },
     { src: "nylon.png", name: "Nylon" },
     { src: "nyxauris.png", name: "Nyxauris" },
     { src: "oliver.png", name: "Oliver" },
+    { src: "", name: "Olivia" },
     { src: "omega.png", name: "Omega" },
     { src: "pandora.png", name: "Pandora" },
     { src: "polychroma.png", name: "Polychroma" },
@@ -103,6 +110,7 @@ const galleryData = [
     { src: "ringo.png", name: "Ringo" },
     { src: "rob.png", name: "Rob" },
     { src: "roku.png", name: "Roku" },
+    { src: "ruby.png", name: "Ruby" },
     { src: "rui.png", name: "Rui" },
     { src: "sapphire.png", name: "Sapphire" },
     { src: "simon.png", name: "Simon" },
@@ -117,6 +125,7 @@ const galleryData = [
     { src: "tohomari.png", name: "Tohomari" },
     { src: "tots.png", name: "Tots" },
     { src: "ucunoid.png", name: "Ucunoid" },
+    { src: "ulloriaq.png", name: "Ulloriaq" },
     { src: "usitron.png", name: "Usitron" },
     { src: "victor.png", name: "Victor" },
     { src: "vivian.png", name: "Vivian" },
@@ -135,8 +144,11 @@ galleryData.forEach((item, index) => {
         galleryContainer.appendChild(galleryDiv);
     }
 
+    const galleryImg = item.src
+        ? `img/gallery/characters/${item.src}`
+        : "https://dummyimage.com/1100x1100/000/fff.png&text=WIP";
     const galleryItem = document.createElement("div");
     galleryItem.className = "gallery-item";
-    galleryItem.innerHTML = `<img src="img/gallery/characters/${item.src}"> <p>${item.name}</p>`;
+    galleryItem.innerHTML = `<img src="${galleryImg}"> <p>${item.name}</p>`;
     galleryContainer.lastChild.appendChild(galleryItem);
 });
