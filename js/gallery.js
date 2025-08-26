@@ -63,7 +63,6 @@ const galleryData = [
     { src: "homo.png", name: "Homo!Memphis" },
     { src: "hoodedspy.png", name: "Hooded Spy" },
     { src: "hoppa.png", name: "Hoppa" },
-    { src: "", name: "Hunter" },
     { src: "ikram.png", name: "Ikram" },
     { src: "inflictor.png", name: "Inflictor" },
     { src: "iriseis.png", name: "Iriseis" },
@@ -132,7 +131,7 @@ const galleryData = [
     { src: "xander.png", name: "Xander" },
     { src: "xzavis.png", name: "Xzavis" },
     { src: "yovy.png", name: "Yovy" },
-    { src: "", name: "Yurei" },
+    { src: "yurei", name: "Yurei" },
     { src: "zendy.png", name: "Zendy" }
 ];
 
