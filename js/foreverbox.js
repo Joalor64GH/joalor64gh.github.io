@@ -89,7 +89,10 @@ function renderVersion(data) {
 
     if (previewBtn && previewUrl) {
         previewBtn.addEventListener('click', () => {
-            window.open(previewUrl, '_blank');
+            const modal = document.getElementById('previewModal');
+            const iframe = document.getElementById('previewVideo');
+            iframe.src = `https://www.youtube.com/embed/${version.meta.previewID}?autoplay=1`;
+            modal.style.display = 'flex';
         });
     }
 
@@ -221,3 +224,17 @@ window.onclick = function (event) {
         modal.style.display = 'none';
     }
 };
+
+function closePreviewModal() {
+    const modal = document.getElementById('previewModal');
+    const iframe = document.getElementById('previewVideo');
+    iframe.src = "";
+    modal.style.display = "none";
+}
+
+window.addEventListener("click", (event) => {
+    const modal = document.getElementById('previewModal');
+    if (event.target === modal) {
+        closePreviewModal();
+    }
+});
