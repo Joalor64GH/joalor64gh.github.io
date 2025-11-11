@@ -1,6 +1,84 @@
 {
     "news": [
         {
+            "date": "November 10, 2025",
+            "posts": [
+                {
+                    "title": "Creations Page Overhaul",
+                    "info": "To make a long story short, I was a bit dissatisfied with the old page's layout, but now it's cleaner and has categories! Isn't that neat?",
+                    "buttons": [
+                        {
+                            "text": "My Cool Creations",
+                            "link": "https://joalor64gh.github.io/my-cool-creations.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "November 9, 2025",
+            "posts": [
+                {
+                    "img": "img/news/percushIcon.png",
+                    "title": "Joalor64's Beatbox V1 Announcement",
+                    "info": "I finally get the chance to finish another mod I've been putting off for a while, with the help of a friend of course. Check out the teaser below!",
+                    "buttons": [
+                        {
+                            "text": "► Teaser",
+                            "link": "https://www.youtube.com/watch?v=yglgEy9kMsc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "November 8, 2025",
+            "posts": [
+                {
+                    "img": "img/foreverbox/icons/v1.png",
+                    "title": "Foreverbox on mod.io!",
+                    "info": "Foreverbox is now getting onto mod.io! As of writing this, Battle recently got acceepted into the official mods list, and hopefully that will be the same for the other versions! Also, standalone builds of the mod will be available on my Discord Server to comply with SFSG's new rules. Check it out!",
+                    "buttons": [
+                        {
+                            "text": "Battle on mod.io",
+                            "link": "https://mod.io/g/incredibox/m/battle"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "October 26, 2025",
+            "posts": [
+                {
+                    "title": "Foreverbox V6 Announcement",
+                    "info": "Foreverbox V6: Sunlight Shore is now in development! Check out the teaser below!",
+                    "buttons": [
+                        {
+                            "text": "► Teaser",
+                            "link": "https://www.youtube.com/watch?v=HRH1QZzXgQw"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "October 18, 2025",
+            "posts": [
+                {
+                    "img": "img/thumbnails/yagsr.png",
+                    "title": "Yet Another Generic Sprunki Remake Release",
+                    "info": "I got a bit bored while working on Foreverbox, so I made this as a quick side project! I personally enjoyed working on this mod, and I hope you guys enjoy the result!",
+                    "buttons": [
+                        {
+                            "text": "► Preview",
+                            "link": "https://www.youtube.com/watch?v=_UZzEuzzEbA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "date": "August 24, 2025",
             "posts": [
                 {
@@ -141,7 +219,7 @@
                     ]
                 },
                 {
-                    "img": "https://foreverbox.onrender.com/favicon.png",
+                    "img": "img/news/foreverboxOldIcon.png",
                     "title": "Foreverbox Wiki",
                     "info": "All character lore and/or content relating to Foreverbox is moving to the new wiki! Contributions are appreciated!",
                     "buttons": [

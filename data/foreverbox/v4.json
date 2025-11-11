@@ -7,8 +7,10 @@
             "date": "2024-09-28",
             "downloadWin": "https://www.mediafire.com/file/cw8wsndd0u6l7uk/Foreverbox_-_V4_Update_%2528PC%2529.zip/file",
             "downloadAnd": "https://www.mediafire.com/file/ut0g14bhcfyy43t/Foreverbox-V4Update_signed.apk/file",
+            "downloadModIo": "",
             "previewID": "LAxmwmfpQ8w",
-            "isNew": false
+            "isNew": false,
+            "isModIo": false
         },
         "visu": {
             "img": "golden-sands1.png",

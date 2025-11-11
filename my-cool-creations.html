@@ -44,190 +44,269 @@
     <h1>✨My Cool Creations✨</h1>
     <h2 class="sub-head">Games, small projects, and other stuff I created!</h2>
     <hr>
-    <div class="game-list">
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/JTA_logo.png">
+    <div id="categoryControls" style="margin: 18px auto; text-align:center; max-width:900px;">
+        <button class="category-btn active" data-cat="all">All</button>
+        <button class="category-btn" data-cat="games">Games</button>
+        <button class="category-btn" data-cat="incredibox-mods">Incredibox Mods</button>
+        <button class="category-btn" data-cat="fnf-mods">FNF Mods</button>
+        <button class="category-btn" data-cat="templates">Templates</button>
+        <button class="category-btn" data-cat="tools">Tools</button>
+        <button class="category-btn" data-cat="misc">Misc.</button>
+    </div>
+
+    <div id="creationsGallery" class="game-gallery">
+        <div class="game-gallery-item" data-category="games">
+            <img class="game-thumbnail" src="img/thumbnails/JTA_logo.png" alt="Journey Through Aubekhia">
             <h3 class="game-name">Journey Through Aubekhia</h3>
             <div class="game-links">
                 <a href="https://github.com/JoaTH-Team/JTA/" target="_blank"><img src="buttons/socials/github-orb.png"
-                        class="link-icon"></a>
+                        class="link-icon" alt="github"></a>
             </div>
         </div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/vs-rob-rebooted.png">
-            <h3 class="game-name">VS Rob: Rebooted! (DEMO)</h3>
-            <div class="game-links">
-                <a href="https://joalor64.itch.io/vs-rob-rebooted-demo" target="_blank"><img
-                        src="buttons/socials/itch-orb.png" class="link-icon"></a>
-                <a href="https://github.com/Joalor64GH/VS-Rob-Rebooted/" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-                <a href="https://gamebanana.com/mods/602704" target="_blank"><img
-                        src="buttons/socials/gamebanana-orb.png" class="link-icon"></a>
-            </div>
-        </div>
-    </div>
-    <div class="game-list">
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/wallpapers/battleR2.png">
-            <h3 class="game-name">Foreverbox</h3>
-            <div class="game-links">
-                <a href="https://joalor64.itch.io/foreverbox" target="_blank"><img src="buttons/socials/itch-orb.png"
-                        class="link-icon"></a>
-            </div>
-        </div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/rhythmo.png">
+
+        <div class="game-gallery-item" data-category="games">
+            <img class="game-thumbnail" src="img/thumbnails/rhythmo.png" alt="Rhythmo">
             <h3 class="game-name">Rhythmo</h3>
             <div class="game-links">
                 <a href="https://joalor64.itch.io/rhythmo" target="_blank"><img src="buttons/socials/itch-orb.png"
-                        class="link-icon"></a>
+                        class="link-icon" alt="itch"></a>
                 <a href="https://github.com/JoaTH-Team/Rhythmo-SC" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
             </div>
         </div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/vs-joalor64.png">
-            <h3 class="game-name">VS Joalor64</h3>
-            <div class="game-links">
-                <a href="https://joalor64.itch.io/vs-joalor64" target="_blank"><img src="buttons/socials/itch-orb.png"
-                        class="link-icon"></a>
-                <a href="https://github.com/Joalor64GH/VSJoalor64-SourceCode" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-                <a href="https://gamebanana.com/mods/417238" target="_blank"><img
-                        src="buttons/socials/gamebanana-orb.png" class="link-icon"></a>
-            </div>
-        </div>
-    </div>
-    <div class="game-list">
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/visionsphere.png">
-            <h3 class="game-name">VisionSphere</h3>
-            <div class="game-links">
-                <a href="https://github.com/Joalor64GH/VisionSphere" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-            </div>
-        </div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/flash-creations.png">
-            <h3 class="game-name">Flash Creations</h3>
-            <div class="game-links">
-                <a href="https://joalor64gh.github.io/FlashCreationsWebsite" target="_blank"><img
-                        src="buttons/main/website-orb.png" class="link-icon"></a>
-                <a href="https://github.com/Joalor64GH/Flash-Creations" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-            </div>
-        </div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/processing-creations.png">
-            <h3 class="game-name">Processing Creations</h3>
-            <div class="game-links">
-                <a href="https://github.com/Joalor64GH/Processing-Creations" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-            </div>
-        </div>
-    </div>
-    <div class="game-list">
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/wallpapers/J64EREgitcover1.png">
-            <h3 class="game-name">Joalor64 Engine Rewritten</h3>
-            <div class="game-links">
-                <a href="https://joalor64.itch.io/joalor64-engine-rewritten" target="_blank"><img
-                        src="buttons/socials/itch-orb.png" class="link-icon"></a>
-                <a href="https://github.com/Joalor64GH/Joalor64-Engine-Rewrite" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-                <a href="https://gamebanana.com/tools/17185" target="_blank"><img
-                        src="buttons/socials/gamebanana-orb.png" class="link-icon"></a>
-            </div>
-        </div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/wallpapers/J64EL.png">
-            <h3 class="game-name">Joalor64 Engine Legacy</h3>
-            <div class="game-links">
-                <a href="https://joalor64.itch.io/joalor64-engine" target="_blank"><img
-                        src="buttons/socials/itch-orb.png" class="link-icon"></a>
-                <a href="https://github.com/Joalor64GH/Joalor64-Engine" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-            </div>
-        </div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/wallpapers/CE.png">
-            <h3 class="game-name">Chocolate Engine</h3>
-            <div class="game-links">
-                <a href="https://joalor64.itch.io/chocolate-engine" target="_blank"><img
-                        src="buttons/socials/itch-orb.png" class="link-icon"></a>
-                <a href="https://github.com/Joalor64GH/Chocolate-Engine" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-                <a href="https://gamebanana.com/tools/10774" target="_blank"><img
-                        src="buttons/socials/gamebanana-orb.png" class="link-icon"></a>
-                <a href="https://mega.nz/folder/CXwCSbzI#Wzro2ssEjDNsw0-KBy0gSQ" target="_blank"><img
-                        src="buttons/socials/mega.png" class="link-icon"></a>
-            </div>
-        </div>
-    </div>
-    <div class="game-list">
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/placeholder.png">
-            <h3 class="game-name">BandLab Radio Player</h3>
-            <div class="game-links">
-                <a href="https://github.com/Joalor64GH/BandLab-Radio-Player" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-            </div>
-        </div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/placeholder.png">
-            <h3 class="game-name">BandLab OST Player</h3>
-            <div class="game-links">
-                <a href="https://github.com/Joalor64GH/BandLabOST-Player" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-            </div>
-        </div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/2048-clicker.png">
-            <h3 class="game-name">2048 Clicker</h3>
-            <div class="game-links">
-                <a href="https://github.com/Joalor64GH/2048-Clicker" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-            </div>
-        </div>
-    </div>
-    <div class="game-list">
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/math-game.png">
-            <h3 class="game-name">The Simple Math Game</h3>
-            <div class="game-links">
-                <a href="https://github.com/Joalor64GH/SimpleMathGame" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
-            </div>
-        </div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/placeholder.png">
+
+        <div class="game-gallery-item" data-category="games">
+            <img class="game-thumbnail" src="img/thumbnails/placeholder.png" alt="Simple 2D Horror">
             <h3 class="game-name">Simple 2D Horror</h3>
             <div class="game-links">
                 <a href="https://github.com/Joalor64GH/Simple2DHorror" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
             </div>
         </div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/placeholder.png">
+
+        <div class="game-gallery-item" data-category="games">
+            <img class="game-thumbnail" src="img/thumbnails/math-game.png" alt="The Simple Math Game">
+            <h3 class="game-name">The Simple Math Game</h3>
+            <div class="game-links">
+                <a href="https://github.com/Joalor64GH/SimpleMathGame" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="games">
+            <img class="game-thumbnail" src="img/thumbnails/2048-clicker.png" alt="2048 Clicker">
+            <h3 class="game-name">2048 Clicker</h3>
+            <div class="game-links">
+                <a href="https://github.com/Joalor64GH/2048-Clicker" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="incredibox-mods">
+            <img class="game-thumbnail" src="img/thumbnails/yagsr.png" alt="Yet Another Generic Sprunki Remake">
+            <h3 class="game-name">Yet Another Generic Sprunki Remake</h3>
+            <div class="game-links">
+                <a href="https://www.mediafire.com/file/vps924lwi8vtu3r/Incredibox_-_YAGSR_%2528PC%2529.zip/file"
+                    target="_blank"><img src="buttons/main/download/windows.png" class="link-icon"
+                        alt="placeholder-link"></a>
+                <a href="https://www.mediafire.com/file/ndmpjlv4wo80jq4/Incredibox_-_YAGSR_%2528Android%2529.apk/file"
+                    target="_blank"><img src="buttons/main/download/android.png" class="link-icon"
+                        alt="placeholder-link"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="incredibox-mods">
+            <img class="game-thumbnail" src="img/thumbnails/foreverbox.png" alt="Foreverbox">
+            <h3 class="game-name">Foreverbox</h3>
+            <div class="game-links">
+                <a href="https://mod.io/g/incredibox/u/joalor64" target="_blank"><img
+                        src="buttons/main/download/modio.png" class="link-icon" alt="itch"></a>
+                <a href="https://joalor64.itch.io/foreverbox" target="_blank"><img src="buttons/socials/itch-orb.png"
+                        class="link-icon" alt="itch"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="fnf-mods">
+            <img class="game-thumbnail" src="img/thumbnails/vs-rob-rebooted.png" alt="VS Rob Rebooted">
+            <h3 class="game-name">VS Rob: Rebooted! (DEMO)</h3>
+            <div class="game-links">
+                <a href="https://joalor64.itch.io/vs-rob-rebooted-demo" target="_blank"><img
+                        src="buttons/socials/itch-orb.png" class="link-icon" alt="itch"></a>
+                <a href="https://github.com/Joalor64GH/VS-Rob-Rebooted/" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+                <a href="https://gamebanana.com/mods/602704" target="_blank"><img
+                        src="buttons/socials/gamebanana-orb.png" class="link-icon" alt="gamebanana"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="fnf-mods">
+            <img class="game-thumbnail" src="img/wallpapers/J64EREgitcover1.png" alt="Joalor64 Engine Rewritten">
+            <h3 class="game-name">Joalor64 Engine Rewritten</h3>
+            <div class="game-links">
+                <a href="https://joalor64.itch.io/joalor64-engine-rewritten" target="_blank"><img
+                        src="buttons/socials/itch-orb.png" class="link-icon" alt="itch"></a>
+                <a href="https://github.com/Joalor64GH/Joalor64-Engine-Rewrite" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+                <a href="https://gamebanana.com/tools/17185" target="_blank"><img
+                        src="buttons/socials/gamebanana-orb.png" class="link-icon" alt="gamebanana"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="fnf-mods">
+            <img class="game-thumbnail" src="img/thumbnails/vs-joalor64.png" alt="VS Joalor64">
+            <h3 class="game-name">VS Joalor64</h3>
+            <div class="game-links">
+                <a href="https://joalor64.itch.io/vs-joalor64" target="_blank"><img src="buttons/socials/itch-orb.png"
+                        class="link-icon" alt="itch"></a>
+                <a href="https://github.com/Joalor64GH/VSJoalor64-SourceCode" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+                <a href="https://gamebanana.com/mods/417238" target="_blank"><img
+                        src="buttons/socials/gamebanana-orb.png" class="link-icon" alt="gamebanana"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="fnf-mods">
+            <img class="game-thumbnail" src="img/wallpapers/CE.png" alt="Chocolate Engine">
+            <h3 class="game-name">Chocolate Engine</h3>
+            <div class="game-links">
+                <a href="https://joalor64.itch.io/chocolate-engine" target="_blank"><img
+                        src="buttons/socials/itch-orb.png" class="link-icon" alt="itch"></a>
+                <a href="https://github.com/Joalor64GH/Chocolate-Engine" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+                <a href="https://gamebanana.com/tools/10774" target="_blank"><img
+                        src="buttons/socials/gamebanana-orb.png" class="link-icon" alt="gamebanana"></a>
+                <a href="https://mega.nz/folder/CXwCSbzI#Wzro2ssEjDNsw0-KBy0gSQ" target="_blank"><img
+                        src="buttons/socials/mega.png" class="link-icon" alt="mega"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="fnf-mods">
+            <img class="game-thumbnail" src="img/wallpapers/J64EL.png" alt="Joalor64 Engine Legacy">
+            <h3 class="game-name">Joalor64 Engine Legacy</h3>
+            <div class="game-links">
+                <a href="https://joalor64.itch.io/joalor64-engine" target="_blank"><img
+                        src="buttons/socials/itch-orb.png" class="link-icon" alt="itch"></a>
+                <a href="https://github.com/Joalor64GH/Joalor64-Engine" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="templates">
+            <img class="game-thumbnail" src="img/thumbnails/placeholder.png" alt="Haxe Template">
+            <h3 class="game-name">Haxe Template</h3>
+            <div class="game-links">
+                <a href="https://github.com/Joalor64GH/Haxe-Template" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="templates">
+            <img class="game-thumbnail" src="img/thumbnails/placeholder.png" alt="HaxeFlixel Template">
+            <h3 class="game-name">HaxeFlixel Template</h3>
+            <div class="game-links">
+                <a href="https://github.com/Joalor64GH/HaxeFlixel-Template" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="tools">
+            <img class="game-thumbnail" src="img/thumbnails/placeholder.png" alt="Simple Localization™">
             <h3 class="game-name">Simple Localization™</h3>
             <div class="game-links">
                 <a href="https://github.com/Joalor64GH/SimpleLocalization" target="_blank"><img
-                        src="buttons/socials/github-orb.png" class="link-icon"></a>
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
             </div>
         </div>
-    </div>
-    <div class="game-list">
-        <div class="game-container" id="blank"></div>
-        <div class="game-container">
-            <img class="game-thumbnail" src="img/thumbnails/alura.png">
+
+        <div class="game-gallery-item" data-category="misc">
+            <img class="game-thumbnail" src="img/thumbnails/alura.png" alt="Alura">
             <h3 class="game-name">Alura</h3>
             <div class="game-links">
                 <a href="https://github.com/Joalor64GH/alura" target="_blank"><img src="buttons/socials/github-orb.png"
-                        class="link-icon"></a>
+                        class="link-icon" alt="github"></a>
             </div>
         </div>
-        <div class="game-container" id="blank"></div>
+
+        <div class="game-gallery-item" data-category="misc">
+            <img class="game-thumbnail" src="img/thumbnails/visionsphere.png" alt="VisionSphere">
+            <h3 class="game-name">VisionSphere</h3>
+            <div class="game-links">
+                <a href="https://github.com/Joalor64GH/VisionSphere" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="misc">
+            <img class="game-thumbnail" src="img/thumbnails/processing-creations.png" alt="Processing Creations">
+            <h3 class="game-name">Processing Creations</h3>
+            <div class="game-links">
+                <a href="https://github.com/Joalor64GH/Processing-Creations" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="misc">
+            <img class="game-thumbnail" src="img/thumbnails/placeholder.png" alt="BandLab Radio Player">
+            <h3 class="game-name">BandLab Radio Player</h3>
+            <div class="game-links">
+                <a href="https://github.com/Joalor64GH/BandLab-Radio-Player" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="misc">
+            <img class="game-thumbnail" src="img/thumbnails/flash-creations.png" alt="Flash Creations">
+            <h3 class="game-name">Flash Creations</h3>
+            <div class="game-links">
+                <a href="https://joalor64gh.github.io/FlashCreationsWebsite" target="_blank"><img
+                        src="buttons/main/website-orb.png" class="link-icon" alt="website"></a>
+                <a href="https://github.com/Joalor64GH/Flash-Creations" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+            </div>
+        </div>
+
+        <div class="game-gallery-item" data-category="misc">
+            <img class="game-thumbnail" src="img/thumbnails/placeholder.png" alt="BandLab OST Player">
+            <h3 class="game-name">BandLab OST Player</h3>
+            <div class="game-links">
+                <a href="https://github.com/Joalor64GH/BandLabOST-Player" target="_blank"><img
+                        src="buttons/socials/github-orb.png" class="link-icon" alt="github"></a>
+            </div>
+        </div>
     </div>
+    <script>
+        (function () {
+            const controls = document.getElementById('categoryControls');
+            const buttons = controls.querySelectorAll('.category-btn');
+            const items = document.querySelectorAll('#creationsGallery .game-gallery-item');
+
+            function setActive(btn) {
+                buttons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            }
+
+            function filter(cat) {
+                items.forEach(i => {
+                    const cats = (i.getAttribute('data-category') || '').split(',').map(s => s.trim());
+                    if (cat === 'all' || cats.indexOf(cat) !== -1) {
+                        i.style.display = '';
+                    } else {
+                        i.style.display = 'none';
+                    }
+                });
+            }
+
+            controls.addEventListener('click', function (e) {
+                const btn = e.target.closest('.category-btn');
+                if (!btn) return;
+                const cat = btn.getAttribute('data-cat');
+                setActive(btn);
+                filter(cat);
+            });
+
+            filter('all');
+        })();
+    </script>
     <footer>
         <br>
         <p>© 2021-2025 | Joalor Enterprises⁶⁴<br>Since March 21, 2021</p>

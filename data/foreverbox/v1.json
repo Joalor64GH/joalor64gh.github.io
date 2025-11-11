@@ -7,8 +7,10 @@
             "date": "2023-08-10 (Demo) / 2023-10-14 (Full Version)",
             "downloadWin": "https://www.mediafire.com/file/h5oe40b883intkg/Foreverbox_-_V1_Remaster.zip/file",
             "downloadAnd": "https://www.mediafire.com/file/me1pyehoe5yizxl/Foreverbox-V1Remaster_signed.apk/file",
+            "downloadModIo": "https://mod.io/g/incredibox/m/battle",
             "previewID": "b9-pdZtukX8",
-            "isNew": false
+            "isNew": false,
+            "isModIo": true
         },
         "visu": {
             "img": "battleR1.png",
