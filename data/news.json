@@ -1,6 +1,22 @@
 {
     "news": [
         {
+            "date": "November 14, 2025",
+            "posts": [
+                {
+                    "img": "img/foreverbox/icons/v2.png",
+                    "title": "Foreverbox V2 on mod.io!",
+                    "info": "Foreverbox V2: Ascension is now on mod.io! Check it out before it goes live on the official app!",
+                    "buttons": [
+                        {
+                            "text": "Battle on mod.io",
+                            "link": "https://mod.io/g/incredibox/m/ascension"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "date": "November 10, 2025",
             "posts": [
                 {
