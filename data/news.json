@@ -1,6 +1,32 @@
 {
     "news": [
         {
+            "date": "November 23, 2025",
+            "posts": [
+                {
+                    "title": "Socials Page Overhaul",
+                    "info": "Just like the old creations page, I improved it because it didn't look to good before, so now it looks so much better!",
+                    "buttons": [
+                        {
+                            "text": "Socials",
+                            "link": "https://joalor64gh.github.io/socials.html"
+                        }
+                    ]
+                },
+                {
+                    "img": "buttons/socials/bilibili.png",
+                    "title": "BiliBili Account",
+                    "info": "I got bored so I decided to make an account on BiliBili for some reason. I might upload some stuff there soon, so why don't you check it out?",
+                    "buttons": [
+                        {
+                            "text": "Me on BiliBili",
+                            "link": "https://space.bilibili.com/3546728714209872"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "date": "November 14, 2025",
             "posts": [
                 {
