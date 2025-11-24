@@ -420,7 +420,6 @@ footer p {
   ____) | |__| | |____ _| |_ / ____ \| |____ ____) |
  |_____/ \____/ \_____|_____/_/    \_\______|_____/ 
 */
-
 .section {
     margin-top: 26px;
 }
@@ -463,7 +462,6 @@ footer p {
 .card img {
     width: 56px;
     height: 56px;
-    border-radius: 10px;
     object-fit: contain;
     flex-shrink: 0;
 }
