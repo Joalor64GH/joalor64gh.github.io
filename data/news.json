@@ -1,6 +1,22 @@
 {
     "news": [
         {
+            "date": "December 7, 2025",
+            "posts": [
+                {
+                    "img": "img/news/percushIcon.png",
+                    "title": "Joalor64's Beatbox V1 Release",
+                    "info": "Joalor64's Beatbox V1: Percush is finally out, after 7 months! This also happens to be my first mod with actual polos! I honestly think the effort was worth it.",
+                    "buttons": [
+                        {
+                            "text": "► Preview",
+                            "link": "https://youtu.be/2GyIMkhLV-o"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "date": "November 23, 2025",
             "posts": [
                 {
