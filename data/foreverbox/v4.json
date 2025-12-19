@@ -10,7 +10,8 @@
             "downloadModIo": "",
             "previewID": "LAxmwmfpQ8w",
             "isNew": false,
-            "isModIo": false
+            "isModIo": false,
+            "isApproved": false
         },
         "visu": {
             "img": "golden-sands1.png",

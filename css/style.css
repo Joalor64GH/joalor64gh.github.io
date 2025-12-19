@@ -692,6 +692,12 @@ footer p {
     height: 50px;
 }
 
+.version-icon-top-right#incredimods {
+    background-image: url('../img/foreverbox/incredimods.png');
+    background-size: cover;
+    background-position: center;
+}
+
 .version-name {
     font-size: 75px;
     font-weight: bold;

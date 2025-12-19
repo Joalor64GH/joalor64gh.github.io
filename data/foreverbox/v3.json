@@ -10,7 +10,8 @@
             "downloadModIo": "",
             "previewID": "RLg2tuNSmKA",
             "isNew": false,
-            "isModIo": false
+            "isModIo": false,
+            "isApproved": false
         },
         "visu": {
             "img": "new-era1.png",

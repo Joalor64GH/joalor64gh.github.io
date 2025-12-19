@@ -10,7 +10,8 @@
             "downloadModIo": "",
             "previewID": "M1pGsvyVu74",
             "isNew": true,
-            "isModIo": false
+            "isModIo": false,
+            "isApproved": false
         },
         "visu": {
             "img": "quartzland1.png",

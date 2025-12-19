@@ -10,7 +10,8 @@
             "downloadModIo": "https://mod.io/g/incredibox/m/ascension",
             "previewID": "siJqzpB51nU",
             "isNew": false,
-            "isModIo": true
+            "isModIo": true,
+            "isApproved": true
         },
         "visu": {
             "img": "ascension1.png",

@@ -38,6 +38,7 @@ function renderVersion(data) {
                 </svg>
         </div>
     ` : '';
+    const incredimodsIcon = version.meta.isApproved ? `<div class="version-icon-top-right" id="incredimods" ${(version.meta.isNew ? 'style="right: 70px;"' : version.meta.isModIo ? 'style="right: 60px;"' : '')}></div>` : '';
     container.innerHTML = `
         <div class="version-container" style="background-color: ${version.visu.colCont};" 
             data-download-windows-url="${version.meta.downloadWin}"
@@ -51,6 +52,7 @@ function renderVersion(data) {
                     <div class="version-name-container">
                         ${newIcon}
                         ${modioIcon}
+                        ${incredimodsIcon}
                         <div class="version-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100"
                                 fill=${version.visu.colVerIcon}>
