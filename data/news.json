@@ -1,6 +1,26 @@
 {
     "news": [
         {
+            "date": "December 25, 2025",
+            "posts": [
+                {
+                    "img": "img/news/foreverboxIcon.png",
+                    "title": "Foreverbox RMB Update",
+                    "info": "It was a bit of a long time coming, but Foreverbox is now available on Rem's Modding Build! I hope you guys enjoy the update, and have a Merry Christmas and a Happy New Year!",
+                    "buttons": [
+                        {
+                            "text": "Download (PC)",
+                            "link": "https://www.mediafire.com/file/nglaegagumyecnq/Foreverbox_RMB.zip/file"
+                        },
+                        {
+                            "text": "Download (Android)",
+                            "link": "https://www.mediafire.com/file/lhxir18z9zj0812/Foreverbox-RMB_signed.apk/file"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "date": "December 7, 2025",
             "posts": [
                 {
