@@ -1,6 +1,22 @@
 {
     "news": [
         {
+            "date": "December 29, 2025",
+            "posts": [
+                {
+                    "img": "img/foreverbox/icons/v3.png",
+                    "title": "Foreverbox V3 on mod.io!",
+                    "info": "Foreverbox V3: New Era is now on mod.io! The other versions, as well as Yet Another Generic Sprunki Remake, will come out after!",
+                    "buttons": [
+                        {
+                            "text": "New Era on mod.io",
+                            "link": "https://mod.io/g/incredibox/m/new-era"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "date": "December 25, 2025",
             "posts": [
                 {
