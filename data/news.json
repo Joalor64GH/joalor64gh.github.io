@@ -1,6 +1,22 @@
 {
     "news": [
         {
+            "date": "December 30, 2025",
+            "posts": [
+                {
+                    "img": "img/foreverbox/icons/v4.png",
+                    "title": "Foreverbox V4 on mod.io!",
+                    "info": "Foreverbox V4: Golden Sands is now on mod.io! All that's left, for now of course, is Quartzland and YAGSR, so stay tuned!",
+                    "buttons": [
+                        {
+                            "text": "Golden Sands on mod.io",
+                            "link": "https://mod.io/g/incredibox/m/golden-sands"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "date": "December 29, 2025",
             "posts": [
                 {
