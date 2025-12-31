@@ -4,6 +4,17 @@
             "date": "December 31, 2025",
             "posts": [
                 {
+                    "img": "img/thumbnails/yagsr.png",
+                    "title": "YAGSR on mod.io!",
+                    "info": "Yet Another Generic Sprunki Remake is now on mod.io! All of my current mods are now on mod.io for you guys to play! Hope you guys enjoy, and have a Happy New Year!",
+                    "buttons": [
+                        {
+                            "text": "YAGSR on mod.io",
+                            "link": "https://mod.io/g/incredibox/m/yet-another-generic-sprunki-remake"
+                        }
+                    ]
+                },
+                {
                     "img": "img/foreverbox/icons/v5.png",
                     "title": "Foreverbox V5 on mod.io!",
                     "info": "Foreverbox V5: Quartzland is now on mod.io! Now all current versions of Foreverbox are now on mod.io! YAGSR will also come out today too!",
