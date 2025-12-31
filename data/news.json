@@ -1,6 +1,22 @@
 {
     "news": [
         {
+            "date": "December 31, 2025",
+            "posts": [
+                {
+                    "img": "img/foreverbox/icons/v5.png",
+                    "title": "Foreverbox V5 on mod.io!",
+                    "info": "Foreverbox V5: Quartzland is now on mod.io! Now all current versions of Foreverbox are now on mod.io! YAGSR will also come out today too!",
+                    "buttons": [
+                        {
+                            "text": "Quartzland on mod.io",
+                            "link": "https://mod.io/g/incredibox/m/quartzland"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "date": "December 30, 2025",
             "posts": [
                 {
